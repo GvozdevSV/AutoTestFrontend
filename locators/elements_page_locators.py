@@ -16,3 +16,4 @@ class CheckBoxPageLocators:
     EXPAND_ALL_BUTTON = (By.CSS_SELECTOR, "button.rct-option:nth-child(1)")
     ITEM_LIST = (By.CSS_SELECTOR, "span[class='rct-title']")
     CHECKED_ITEMS = (By.CSS_SELECTOR, "svg[class='rct-icon rct-icon-check']")
+    TITLE_ITEM = ".//ancestor::span[@class='rct-title']"

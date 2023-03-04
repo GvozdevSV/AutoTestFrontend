@@ -1,5 +1,6 @@
 import random
-import time
+
+from selenium.webdriver.common.by import By
 
 from generator.generator import generated_person
 from locators.elements_page_locators import TextBoxPageLocators, CheckBoxPageLocators
@@ -19,7 +20,6 @@ class TextBoxPage(BasePage):
         self.element_is_visible(self.locators.PERMANENT_ADDRESS).send_keys(permanent_address)
         self.element_is_visible(self.locators.SUBMIT).click()
         return full_name, email, current_address, permanent_address
-
     def check_filled_form(self):
         full_name = self.element_is_present(self.locators.CREATED_FULL_NAME).text.split(':')[1]
         email = self.element_is_present(self.locators.CREATED_EMAIL).text.split(':')[1]
@@ -45,6 +45,9 @@ class CheckBoxPage(BasePage):
             else:
                 break
 
+    def get_checked_checkbox(self):
+        checked_list = self.elements_are_present(self.locators.CHECKED_ITEMS)
+        for box in checked_list:
+            title_item = box.find_element(By.XPATH, "//ancestor::span[@class='rct-title']")
+            print(title_item.text)
 
-    def get_checked_checboxes(self):
-        cecked_list = self.element_is_present(self.locators.CHECKED_ITEMS)
