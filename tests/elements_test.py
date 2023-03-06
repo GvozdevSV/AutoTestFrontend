@@ -2,7 +2,7 @@ import time
 
 import allure
 
-from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage
+from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablesPage
 
 @allure.suite("Elements")
 class TestElements:
@@ -42,3 +42,9 @@ class TestElements:
             assert output_yes == 'Yes', "'not select yes'"
             assert output_impressive == 'Impressive', "'not select impressive'"
             assert output_no == 'no', "'not select no'"
+
+    class TestWebTables:
+        def test_web_tables_add_person(self, driver):
+            web_tables_page = WebTablesPage(driver, 'https://demoqa.com/webtables')
+            web_tables_page.open()
+            web_tables_page.add_new_person()
