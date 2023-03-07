@@ -35,6 +35,8 @@ class WebTablesPageLocators:
     SALARY_INPUT = (By.CSS_SELECTOR, '#salary')
     DEPARTMENT_INPUT = (By.CSS_SELECTOR, '#department')
     SUBMIT_BUTTON = (By.CSS_SELECTOR, '#submit')
+    #get table
+    FULL_PEOPLE_LIST = (By.CSS_SELECTOR, 'div[class="rt-tr-group"]')
 
 
 
