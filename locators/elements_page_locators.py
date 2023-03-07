@@ -37,6 +37,10 @@ class WebTablesPageLocators:
     SUBMIT_BUTTON = (By.CSS_SELECTOR, '#submit')
     #get table
     FULL_PEOPLE_LIST = (By.CSS_SELECTOR, 'div[class="rt-tr-group"]')
+    #search
+    SEARCH_IMPUT = (By.CSS_SELECTOR, 'input[id="searchBox"]')
+
+    DELETE_BUTTON = (By.CSS_SELECTOR, 'span[title="Delete"]')
 
 
 

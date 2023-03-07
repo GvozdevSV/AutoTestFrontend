@@ -1,6 +1,5 @@
 import random
 
-import self as self
 from selenium.webdriver.common.by import By
 
 from generator.generator import generated_person
@@ -109,3 +108,10 @@ class WebTablesPage(BasePage):
         for item in person_list:
             data.append(item.text.splitlines())
         return data
+    def search_some_person(self, key_word):
+        self.element_is_visible(self.locators.SEARCH_IMPUT).send_keys(key_word)
+    def check_searched_person(self):
+        delete_button = self.element_is_present(self.locators.DELETE_BUTTON)
+        row = delete_button.find_element('xpath', ".//ancestor::div[@class='rt-tr-group']")
+        return row.text.splitlines()
+
