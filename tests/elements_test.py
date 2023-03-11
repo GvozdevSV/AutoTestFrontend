@@ -57,6 +57,27 @@ class TestElements:
             key_word = web_tables_page.add_new_person()[random.randint(0, 5)]
             web_tables_page.search_some_person(key_word)
             table_result = web_tables_page.check_searched_person()
-            print(key_word)
-            print(table_result)
-            assert key_word in table_result
+            assert key_word in table_result, 'key not found'
+        def test_web_tables_update_person_info(self, driver):
+            web_tables_page = WebTablesPage(driver, 'https://demoqa.com/webtables')
+            web_tables_page.open()
+            last_name = web_tables_page.add_new_person()[1]
+            web_tables_page.search_some_person(last_name)
+            age = web_tables_page.update_person_info()
+            row = web_tables_page.check_searched_person()
+            assert age in row
+
+        def test_web_tables_delete_person(self, driver):
+            web_tables_page = WebTablesPage(driver, 'https://demoqa.com/webtables')
+            web_tables_page.open()
+            email = web_tables_page.add_new_person()[3]
+            web_tables_page.search_some_person(email)
+            web_tables_page.delete_person_info()
+            text = web_tables_page.check_delete()
+            assert text == "No rows found"
+
+        def test_web_tables_change_count_row(self, driver):
+            web_tables_page = WebTablesPage(driver, 'https://demoqa.com/webtables')
+            web_tables_page.open()
+            count = web_tables_page.select_up_to_some_rows()
+            assert count == [5, 10, 20, 25, 50, 100], 'The number of row in table has not been changed or has chnge incorrectly'

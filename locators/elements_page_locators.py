@@ -41,6 +41,12 @@ class WebTablesPageLocators:
     SEARCH_IMPUT = (By.CSS_SELECTOR, 'input[id="searchBox"]')
 
     DELETE_BUTTON = (By.CSS_SELECTOR, 'span[title="Delete"]')
+    UPDATE_PERSON_INFO_BUTTON = (By.CSS_SELECTOR, 'span[title="Edit"]')
+    NO_DATA_INFO = (By.CSS_SELECTOR, 'div[class="rt-noData"]')
+    ROW_PER_PAGE = (By.CSS_SELECTOR, 'select[aria-label="rows per page"]')
+
+
+
 
 
 
