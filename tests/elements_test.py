@@ -3,7 +3,8 @@ import time
 
 import allure
 
-from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablesPage
+from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablesPage, ButtonPage
+
 
 @allure.suite("Elements")
 class TestElements:
@@ -81,3 +82,16 @@ class TestElements:
             web_tables_page.open()
             count = web_tables_page.select_up_to_some_rows()
             assert count == [5, 10, 20, 25, 50, 100], 'The number of row in table has not been changed or has chnge incorrectly'
+
+    class TestButtonPage:
+
+        def test_different_click_on_buttons(self, driver):
+            button_page = ButtonPage(driver, 'https://demoqa.com/buttons')
+            button_page .open()
+            double = button_page.click_on_different_buttons('double')
+            right = button_page.click_on_different_buttons('right')
+            click = button_page.click_on_different_buttons('click')
+            assert double == 'You have done a double click'
+            assert right == 'You have done a right click'
+            assert click == 'You have done a dynamic click'
+
