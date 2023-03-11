@@ -91,7 +91,7 @@ class TestElements:
             double = button_page.click_on_different_buttons('double')
             right = button_page.click_on_different_buttons('right')
             click = button_page.click_on_different_buttons('click')
-            assert double == 'You have done a double click'
-            assert right == 'You have done a right click'
-            assert click == 'You have done a dynamic click'
+            assert double == 'You have done a double click', 'The double click button not pressed'
+            assert right == 'You have done a right click', 'The right click button not pressed'
+            assert click == 'You have done a dynamic click', 'The click button not pressed'
 
