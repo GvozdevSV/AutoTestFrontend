@@ -29,7 +29,9 @@ class BasePage:
         action = ActionChains(self.driver)
         action.double_click(element)
         action.perform()
+
     def action_right_click(self,element):
         action = ActionChains(self.driver)
         action.context_click(element)
         action.perform()
+

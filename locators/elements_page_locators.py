@@ -45,7 +45,7 @@ class WebTablesPageLocators:
     NO_DATA_INFO = (By.CSS_SELECTOR, 'div[class="rt-noData"]')
     ROW_PER_PAGE = (By.CSS_SELECTOR, 'select[aria-label="rows per page"]')
 
-class ByuttonPageLocators:
+class ButtonPageLocators:
     DOUBLE_CLICK_BUTTON = (By.CSS_SELECTOR, 'button[id="doubleClickBtn"]')
     RIGHT_CLICK_BUTTON = (By.CSS_SELECTOR, 'button[id="rightClickBtn"]')
     PRIMARY_CLICK_BUTTON = (By.XPATH, '//div[3]/button')
@@ -53,3 +53,14 @@ class ByuttonPageLocators:
     CHECK_DOUBLE_CLICK_BUTTON = (By.CSS_SELECTOR, 'p[id="doubleClickMessage"]')
     CHECK_RIGHT_CLICK_BUTTON = (By.CSS_SELECTOR, 'p[id="rightClickMessage"]')
     CHECK_PRIMARY_CLICK_BUTTON = (By.CSS_SELECTOR, 'p[id="dynamicClickMessage"]')
+
+class LinksPageLocators:
+    SIMPLE_LINK = (By.CSS_SELECTOR, 'a[id="simpleLink"]')
+    DYNAMIC_LINK = (By.CSS_SELECTOR, 'a[id="dynamicLink"]')
+    CREATED_LINK = (By.CSS_SELECTOR, 'a[id="created"]')
+    NO_CONTENT_LINK = (By.CSS_SELECTOR, 'a[id="no-content"]')
+    MOVED_LINK = (By.CSS_SELECTOR, 'a[id="moved"]')
+    BAD_REQUEST_LINK = (By.CSS_SELECTOR, 'a[id="bad-request"]')
+    UNAUTHORIZED_LINK = (By.CSS_SELECTOR, 'a[id="unauthorized"]')
+    FORBIDDEN_LINK = (By.CSS_SELECTOR, 'a[id="forbidden"]')
+    INVALID_URL_LINK = (By.CSS_SELECTOR, 'a[id="invalid-url"]')
