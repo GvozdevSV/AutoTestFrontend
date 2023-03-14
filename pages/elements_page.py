@@ -1,11 +1,13 @@
+import os
 import random
-
+import time
+import pathlib
 import requests
 from selenium.webdriver.common.by import By
 
-from generator.generator import generated_person
+from generator.generator import generated_person, generated_file
 from locators.elements_page_locators import TextBoxPageLocators, CheckBoxPageLocators, RadioButtonPageLocators, \
-    WebTablesPageLocators, ButtonPageLocators, LinksPageLocators
+    WebTablesPageLocators, ButtonPageLocators, LinksPageLocators, DownloadPageLocators
 from pages.base_page import BasePage
 
 class TextBoxPage(BasePage):
@@ -187,3 +189,26 @@ class LinksPage(BasePage):
             self.element_is_visible(self.locators.BAD_REQUEST_LINK).clik()
         else:
             return request.status_code
+
+    def check_new_tab_dynamic_link(self):
+        dynamic_link = self.element_is_visible(self.locators.DYNAMIC_LINK)
+        link_href = dynamic_link.get_attribute('href')
+        request = requests.get(link_href)
+        if request.status_code == 200:
+            dynamic_link.click()
+            self.driver.switch_to.window(self.driver.window_handles[1])
+            url = self.driver.current_url
+            return link_href, url
+        else:
+            return link_href, request.status_code
+class DownloadPage(BasePage):
+    locators = DownloadPageLocators()
+
+    def upload_file(self):
+        file_name, path = generated_file()
+        self.element_is_present(self.locators.UPLOAD_BUTTON).send_keys(path)
+        os.remove(path)
+        checked_path = self.element_is_present(self.locators.CHECK_UPLOAD_FILE).text
+        upload_file_name = pathlib.Path(file_name).stem
+        checked_path_file_name = pathlib.Path(checked_path).stem
+        return upload_file_name, checked_path_file_name
