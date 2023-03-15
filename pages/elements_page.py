@@ -228,7 +228,12 @@ class DownloadPage(BasePage):
 class DynamicPropertiesPage(BasePage):
     locators = DynamicPropertiesPageLocators()
 
-
+    def enable_at_time_button(self):
+        enable_after_button = self.element_is_visible(self.locators.ENABLE_AFTER_BUTTON)
+        before_time = enable_after_button.get_attribute('disabled')
+        time.sleep(6)
+        after_time = enable_after_button.get_attribute('disabled')
+        return before_time, after_time
 
     def button_change_color(self):
         color_button = self.element_is_visible(self.locators.COLOR_CHANGE_BUTTON).value_of_css_property('color')

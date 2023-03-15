@@ -132,6 +132,13 @@ class TestElements:
             assert check is True
 
     class TestDynamicProperties:
+
+        def test_dynamic_attribute_button(self, driver):
+            dynamics_properties_page = DynamicPropertiesPage(driver, 'https://demoqa.com/dynamic-properties')
+            dynamics_properties_page.open()
+            before_time, after_time = dynamics_properties_page.enable_at_time_button()
+            assert before_time, after_time
+
         def test_dynamics_properties(self, driver):
             dynamics_properties_page = DynamicPropertiesPage(driver, 'https://demoqa.com/dynamic-properties')
             dynamics_properties_page.open()
