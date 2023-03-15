@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 from generator.generator import generated_person, generated_file
 from locators.elements_page_locators import TextBoxPageLocators, CheckBoxPageLocators, RadioButtonPageLocators, \
-    WebTablesPageLocators, ButtonPageLocators, LinksPageLocators, DownloadPageLocators
+    WebTablesPageLocators, ButtonPageLocators, LinksPageLocators, DownloadPageLocators, DynamicPropertiesPageLocators
 from pages.base_page import BasePage
 
 class TextBoxPage(BasePage):
@@ -225,3 +225,13 @@ class DownloadPage(BasePage):
             f.close()
         os.remove(path_name_file)
         return check_file
+class DynamicPropertiesPage(BasePage):
+    locators = DynamicPropertiesPageLocators()
+
+
+
+    def button_change_color(self):
+        color_button = self.element_is_visible(self.locators.COLOR_CHANGE_BUTTON).value_of_css_property('color')
+        time.sleep(6)
+        color_button_changed = self.element_is_visible(self.locators.COLOR_CHANGE_BUTTON).value_of_css_property('color')
+        return color_button, color_button_changed

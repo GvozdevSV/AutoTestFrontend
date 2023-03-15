@@ -5,7 +5,7 @@ import time
 import allure
 
 from pages.elements_page import TextBoxPage, CheckBoxPage, RadioButtonPage, WebTablesPage, ButtonPage, LinksPage, \
-    DownloadPage
+    DownloadPage, DynamicPropertiesPage
 
 
 @allure.suite("Elements")
@@ -130,4 +130,13 @@ class TestElements:
             download_page.open()
             check = download_page.download_file()
             assert check is True
+
+    class TestDynamicProperties:
+        def test_dynamics_properties(self, driver):
+            dynamics_properties_page = DynamicPropertiesPage(driver, 'https://demoqa.com/dynamic-properties')
+            dynamics_properties_page.open()
+            color_button, color_button_changed = dynamics_properties_page.button_change_color()
+            assert color_button != color_button_changed
+
+
 
