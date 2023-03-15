@@ -128,3 +128,6 @@ class TestElements:
         def test_download_file(self, driver):
             download_page = DownloadPage(driver, 'https://demoqa.com/upload-download')
             download_page.open()
+            check = download_page.download_file()
+            assert check is True
+

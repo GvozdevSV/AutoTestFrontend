@@ -1,3 +1,4 @@
+import base64
 import os
 import random
 import time
@@ -212,3 +213,15 @@ class DownloadPage(BasePage):
         upload_file_name = pathlib.Path(file_name).stem
         checked_path_file_name = pathlib.Path(checked_path).stem
         return upload_file_name, checked_path_file_name
+
+    def download_file(self):
+        link = self.element_is_present(self.locators.DOWNLOAD_BUTTON).get_attribute('href')
+        link_b = base64.b64decode(link)
+        path_name_file = rf'C:\Users\ПК\PycharmProjects\AvtoTestFrontend\testfile{random.randint(0, 999)}.jpg'
+        with open(path_name_file, 'wb+') as f:
+            offset = link_b.find(b'\xff\xd8')
+            f.write(link_b[offset:])
+            check_file = os.path.exists(path_name_file)
+            f.close()
+        os.remove(path_name_file)
+        return check_file
