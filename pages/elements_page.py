@@ -4,6 +4,7 @@ import random
 import time
 import pathlib
 import requests
+from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 
 from generator.generator import generated_person, generated_file
@@ -240,3 +241,11 @@ class DynamicPropertiesPage(BasePage):
         time.sleep(6)
         color_button_changed = self.element_is_visible(self.locators.COLOR_CHANGE_BUTTON).value_of_css_property('color')
         return color_button, color_button_changed
+
+    def check_apper_at_time(self):
+        try:
+            self.element_is_visible(self.locators.VISIBLE_AFTER_BUTTON)
+        except TimeoutException:
+            return False
+        return True
+

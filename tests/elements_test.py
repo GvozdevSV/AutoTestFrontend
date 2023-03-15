@@ -145,5 +145,11 @@ class TestElements:
             color_button, color_button_changed = dynamics_properties_page.button_change_color()
             assert color_button != color_button_changed
 
+        def test_check_appear(self, driver):
+            dynamics_properties_page = DynamicPropertiesPage(driver, 'https://demoqa.com/dynamic-properties')
+            dynamics_properties_page.open()
+            appear = dynamics_properties_page.check_apper_at_time()
+            assert appear is True
+
 
 
