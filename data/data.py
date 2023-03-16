@@ -12,3 +12,4 @@ class Person:
     age: int = None
     salary: int = None
     department: int = None
+    mobile_namber: int = None

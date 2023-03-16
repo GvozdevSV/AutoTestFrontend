@@ -16,6 +16,7 @@ def generated_person():
         email=faker_ru.email(),
         current_address=faker_ru.address(),
         permanent_address=faker_ru.address(),
+        mobile_namber=faker_ru.msisdn(),
     )
 def generated_file():
     path = rf'C:\Users\ПК\PycharmProjects\AvtoTestFrontend\testfile{random.randint(0, 999)}.txt'
