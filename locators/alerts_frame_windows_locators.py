@@ -9,3 +9,12 @@ class BrowserWindowsPageLocators:
 
     CHECK_NEW_TAB = (By.CSS_SELECTOR, 'h1[id="sampleHeading"]')
     CHECK_WINDOW_TAB = (By.CSS_SELECTOR, 'h1[id="sampleHeading"]')
+
+class AlertsPageLocators:
+    ALERT_BUTTON = (By.CSS_SELECTOR, 'button[id="alertButton"]')
+    TIMER_ALERT_BUTTON = (By.CSS_SELECTOR, 'button[id="timerAlertButton"]')
+    CONFIRM_BUTTON = (By.CSS_SELECTOR, 'button[id="confirmButton"]')
+    PROMT_BUTTON = (By.CSS_SELECTOR, 'button[id="promtButton"]')
+    #check
+    CONFIRM_RESULT = (By.CSS_SELECTOR, 'span[id="confirmResult"]')
+    PROMPT_RESULT = (By.CSS_SELECTOR, 'span[id="promptResult"]')
