@@ -50,8 +50,5 @@ class FormPage(BasePage):
 
 
 
-        #firs_name = person.first_name
-        #last_name = person.last_name
-        #email = person.email
 
 
