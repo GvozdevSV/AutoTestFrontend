@@ -18,3 +18,8 @@ class AlertsPageLocators:
     #check
     CONFIRM_RESULT = (By.CSS_SELECTOR, 'span[id="confirmResult"]')
     PROMPT_RESULT = (By.CSS_SELECTOR, 'span[id="promptResult"]')
+
+class FramesPageLocators:
+    FRAME_ONE = (By.CSS_SELECTOR, 'iframe[id="frame1"]')
+    FRAME_TWO = (By.CSS_SELECTOR, 'iframe[id="frame2"]')
+    FRAME_TEXT = (By.CSS_SELECTOR, 'h1[id="sampleHeading"]')
