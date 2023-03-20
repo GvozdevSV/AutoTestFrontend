@@ -3,6 +3,8 @@ import os
 import random
 import time
 import pathlib
+
+import allure
 import requests
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
@@ -14,6 +16,7 @@ from pages.base_page import BasePage
 
 class TextBoxPage(BasePage):
     locators = TextBoxPageLocators()
+    @allure.step()
     def fill_all_fields(self):
         person_info = next(generated_person())
         full_name = person_info.full_name
