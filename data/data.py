@@ -13,3 +13,8 @@ class Person:
     salary: int = None
     department: int = None
     mobile_namber: int = None
+
+
+@dataclass
+class Colors:
+    color_name: list = None

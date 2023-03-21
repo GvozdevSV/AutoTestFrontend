@@ -1,4 +1,6 @@
-from pages.widgets_page import AccordianPage
+import time
+
+from pages.widgets_page import AccordianPage, AutoCompletPage
 
 
 class TestAccordian:
@@ -11,3 +13,31 @@ class TestAccordian:
         assert first_title == 'What is Lorem Ipsum?' and first_content > 0, 'Incorrect title or missing text'
         assert second_title == 'Where does it come from?' and second_content > 0, 'Incorrect title or missing text'
         assert third_title == 'Why do we use it?' and third_content > 0, 'Incorrect title or missing text'
+class TestAutoComplete:
+    def test_autocomplete(self, driver):
+        auto_complete_page = AutoCompletPage(driver, 'https://demoqa.com/auto-complete')
+        auto_complete_page.open()
+        colors = auto_complete_page.fill_input_multi()
+        colors_result = auto_complete_page.check_color_in_multi()
+        assert colors == colors_result, "Not all colors add to fill"
+
+    def test_delete_color(self, driver):
+        auto_complete_page = AutoCompletPage(driver, 'https://demoqa.com/auto-complete')
+        auto_complete_page.open()
+        auto_complete_page.fill_input_multi()
+        count_value_before, count_value_after = auto_complete_page.remove_value_from_multi()
+        assert count_value_before > count_value_after, "Color are not delete"
+    def test_delete_all_colors(self, driver):
+        auto_complete_page = AutoCompletPage(driver, 'https://demoqa.com/auto-complete')
+        auto_complete_page.open()
+        auto_complete_page.fill_input_multi()
+        count_value_before, count_value_after = auto_complete_page.remove_all_values_from_multi()
+        assert count_value_before > 0
+        assert count_value_after == 0, "Colors are not deleted"
+
+    def test_check_single_color(self, driver):
+        auto_complete_page = AutoCompletPage(driver, 'https://demoqa.com/auto-complete')
+        auto_complete_page.open()
+        color, output_color = auto_complete_page.check_input_color_in_single()
+        assert color == [output_color], "Input and output colors not equal"
+
