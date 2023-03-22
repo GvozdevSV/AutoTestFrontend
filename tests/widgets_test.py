@@ -1,6 +1,6 @@
 import time
 
-from pages.widgets_page import AccordianPage, AutoCompletPage, DatePage
+from pages.widgets_page import AccordianPage, AutoCompletPage, DatePage, SliderPage
 
 
 class TestAccordian:
@@ -43,14 +43,21 @@ class TestAutoComplete:
 
 class TestDate:
 
-    def test_chenge_date(self, driver):
+    def test_change_date(self, driver):
         data_page = DatePage(driver, 'https://demoqa.com/date-picker')
         data_page.open()
         date_before, date_after = data_page.check_date()
-        assert date_before != date_after
+        assert date_before != date_after, "Date not change"
 
 
     #def test_chenge_date_and_time(self, driver):
         #data_page = DatePage(driver, 'https://demoqa.com/date-picker')
         #data_page.open()
         #data_page.check_date()
+
+class TestSlider:
+    def test_check_slider(self,driver):
+        slider_page = SliderPage(driver, 'https://demoqa.com/slider')
+        slider_page.open()
+        input_value, output_value = slider_page.check_slider()
+        assert input_value != output_value, "Slider not move"

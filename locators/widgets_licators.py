@@ -30,3 +30,9 @@ class DatePageLocators:
     DATE_AND_TIME_YEAR_LIST = (By.CSS_SELECTOR, 'div[class="react-datepicker__year-option"]')
     DATE_AND_TIME_DAY_SELECT = (By.CSS_SELECTOR, 'div[class^="react-datepicker__day react-datepicker__day"]')
     TIME_SELECT = (By.CSS_SELECTOR, 'li[class="react-datepicker__time-list-item "]')
+
+class SliderPageLocators:
+    INPUT_RANGE_SLIDER = (By.CSS_SELECTOR, 'input[class="range-slider range-slider--primary"]')
+    SLIDER_LABEL = (By.CSS_SELECTOR, 'div[class="range-slider__tooltip__label"]')
+    SLIDER_VALUE_FIELD = (By.CSS_SELECTOR, 'input[id="sliderValue"]')
+

@@ -6,7 +6,7 @@ from selenium.webdriver import Keys
 from selenium.webdriver.support.select import Select
 
 from generator.generator import generated_color, generated_date
-from locators.widgets_licators import AccordianLocators, AutoCompletLocatars, DatePageLocators
+from locators.widgets_licators import AccordianLocators, AutoCompletLocatars, DatePageLocators, SliderPageLocators
 from pages.base_page import BasePage
 
 
@@ -117,3 +117,14 @@ class DatePage(BasePage):
        # print(date_after)
        # print(date_before)
        # return date_before, date_after
+class SliderPage(BasePage):
+    locators = SliderPageLocators
+
+    def check_slider(self):
+        input_value = self.element_is_visible(self.locators.SLIDER_VALUE_FIELD).get_attribute('value')
+        slider_input = self.element_is_visible(self.locators.INPUT_RANGE_SLIDER)
+        self.action_drag_and_drop_by_offset(slider_input, random.randint(0, 99), 0)
+        output_value = self.element_is_visible(self.locators.SLIDER_VALUE_FIELD).get_attribute('value')
+        return input_value, output_value
+
+
