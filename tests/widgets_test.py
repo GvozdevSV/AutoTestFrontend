@@ -1,6 +1,6 @@
 import time
 
-from pages.widgets_page import AccordianPage, AutoCompletPage
+from pages.widgets_page import AccordianPage, AutoCompletPage, DatePage
 
 
 class TestAccordian:
@@ -41,3 +41,16 @@ class TestAutoComplete:
         color, output_color = auto_complete_page.check_input_color_in_single()
         assert color == [output_color], "Input and output colors not equal"
 
+class TestDate:
+
+    def test_chenge_date(self, driver):
+        data_page = DatePage(driver, 'https://demoqa.com/date-picker')
+        data_page.open()
+        date_before, date_after = data_page.check_date()
+        assert date_before != date_after
+
+
+    #def test_chenge_date_and_time(self, driver):
+        #data_page = DatePage(driver, 'https://demoqa.com/date-picker')
+        #data_page.open()
+        #data_page.check_date_and_time()
