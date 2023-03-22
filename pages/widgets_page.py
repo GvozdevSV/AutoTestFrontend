@@ -105,16 +105,15 @@ class DatePage(BasePage):
 
     #def check_date_and_time(self):
        # date = next(generated_date())
-       # input_date = self.element_is_visible(self.locators.DATE_AND_TIME_FIELD)
+        #input_date = self.element_is_visible(self.locators.DATE_AND_TIME_FIELD)
        # date_before = input_date.get_attribute('value')
        # input_date.click()
-        #self.element_is_visible(self.locators.DATE_AND_TIME_MONTH_SELECT).click()
-        #self.set_date_item_from_list(self.locators.DATE_AND_TIME_MONTH_LIST, date.month)
+       # self.set_date_by_text(self.locators.DATE_AND_TIME_MONTH_LIST, 'June')
+       # self.set_date_item_from_list(self.locators.DATE_AND_TIME_DAY_SELECT, date.day)
+       # self.set_date_by_text(self.locators.TIME_SELECT, date.time)
        # self.element_is_visible(self.locators.DATE_AND_TIME_YEAR_SELECT).click()
-        #self.set_date_by_text(self.locators.DATE_AND_TIME_YEAR_SELECT, date.year)
-        #self.set_date_item_from_list(self.locators.DATE_AND_TIME_DAY_SELECT, date.day)
-        #self.set_date_by_text(self.locators.TIME_SELECT, date.time)
-        #date_after = input_date.get_attribute('value')
-        #print(date_after)
-        #print(date_before)
-        #return date_before, date_after
+      #  self.set_date_by_text(self.locators.DATE_AND_TIME_YEAR_SELECT, '2020')
+       # date_after = input_date.get_attribute('value')
+       # print(date_after)
+       # print(date_before)
+       # return date_before, date_after

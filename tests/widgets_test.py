@@ -53,4 +53,4 @@ class TestDate:
     #def test_chenge_date_and_time(self, driver):
         #data_page = DatePage(driver, 'https://demoqa.com/date-picker')
         #data_page.open()
-        #data_page.check_date_and_time()
+        #data_page.check_date()
