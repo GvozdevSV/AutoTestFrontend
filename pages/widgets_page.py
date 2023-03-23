@@ -7,7 +7,7 @@ from selenium.webdriver.support.select import Select
 
 from generator.generator import generated_color, generated_date
 from locators.widgets_licators import AccordianLocators, AutoCompletLocatars, DatePageLocators, SliderPageLocators, \
-    ProgressBarPageLocators
+    ProgressBarPageLocators, TabsPageLocators
 from pages.base_page import BasePage
 
 
@@ -34,6 +34,7 @@ class AccordianPage(BasePage):
             section_content = self.element_is_visible(accordian[accordian_num]['content']).text
         return [section_title.text, len(section_content)]
 
+
 class AutoCompletPage(BasePage):
     locators = AutoCompletLocatars
 
@@ -54,6 +55,7 @@ class AutoCompletPage(BasePage):
             break
         count_value_after = len(self.elements_are_visible(self.locators.MULTI_COLOR_VALUE))
         return count_value_before, count_value_after
+
     def remove_all_values_from_multi(self):
         count_value_before = len(self.elements_are_visible(self.locators.MULTI_COLOR_VALUE))
         delete_button = self.element_is_present(self.locators.MULTI_COLOR_DELETE_ALL_BUTTON)
@@ -63,6 +65,7 @@ class AutoCompletPage(BasePage):
         except TimeoutException:
             count_value_after = 0
         return count_value_before, count_value_after
+
     def check_color_in_multi(self):
         color_list = self.elements_are_visible(self.locators.MULTI_COLOR_VALUE)
         colors = []
@@ -77,6 +80,7 @@ class AutoCompletPage(BasePage):
         input_color.send_keys(Keys.ENTER)
         output_color = self.element_is_visible(self.locators.SINGLE_COLOR_VALUE).text
         return color, output_color
+
 
 class DatePage(BasePage):
     locators = DatePageLocators
@@ -103,21 +107,22 @@ class DatePage(BasePage):
                 item.click()
                 break
 
+    # def check_date_and_time(self):
+    # date = next(generated_date())
+    # input_date = self.element_is_visible(self.locators.DATE_AND_TIME_FIELD)
+    # date_before = input_date.get_attribute('value')
+    # input_date.click()
+    # self.set_date_by_text(self.locators.DATE_AND_TIME_MONTH_LIST, 'June')
+    # self.set_date_item_from_list(self.locators.DATE_AND_TIME_DAY_SELECT, date.day)
+    # self.set_date_by_text(self.locators.TIME_SELECT, date.time)
+    # self.element_is_visible(self.locators.DATE_AND_TIME_YEAR_SELECT).click()
+    #  self.set_date_by_text(self.locators.DATE_AND_TIME_YEAR_SELECT, '2020')
+    # date_after = input_date.get_attribute('value')
+    # print(date_after)
+    # print(date_before)
+    # return date_before, date_after
 
-    #def check_date_and_time(self):
-       # date = next(generated_date())
-        #input_date = self.element_is_visible(self.locators.DATE_AND_TIME_FIELD)
-       # date_before = input_date.get_attribute('value')
-       # input_date.click()
-       # self.set_date_by_text(self.locators.DATE_AND_TIME_MONTH_LIST, 'June')
-       # self.set_date_item_from_list(self.locators.DATE_AND_TIME_DAY_SELECT, date.day)
-       # self.set_date_by_text(self.locators.TIME_SELECT, date.time)
-       # self.element_is_visible(self.locators.DATE_AND_TIME_YEAR_SELECT).click()
-      #  self.set_date_by_text(self.locators.DATE_AND_TIME_YEAR_SELECT, '2020')
-       # date_after = input_date.get_attribute('value')
-       # print(date_after)
-       # print(date_before)
-       # return date_before, date_after
+
 class SliderPage(BasePage):
     locators = SliderPageLocators
 
@@ -127,6 +132,8 @@ class SliderPage(BasePage):
         self.action_drag_and_drop_by_offset(slider_input, random.randint(0, 99), 0)
         output_value = self.element_is_visible(self.locators.SLIDER_VALUE_FIELD).get_attribute('value')
         return input_value, output_value
+
+
 class ProgressBarPage(BasePage):
     locators = ProgressBarPageLocators
 
@@ -147,6 +154,26 @@ class ProgressBarPage(BasePage):
         return bar_value, output_bar_value
 
 
+class TabsPage(BasePage):
+    locators = TabsPageLocators
 
-
-
+    def check_tabs(self, tabs_num):
+        tabs = {'what':
+                    {'title': self.locators.WHAT_TITLE,
+                     'content': self.locators.WHAT_TEXT},
+                'origin':
+                    {'title': self.locators.ORIGIN_TITLE,
+                     'content': self.locators.ORIGIN_TEXT},
+                'use':
+                    {'title': self.locators.USE_TITLE,
+                     'content': self.locators.USE_TEXT},
+                'more':
+                    {'title': self.locators.MORE_TITLE,
+                     'content': self.locators.MORE_TEXT},
+                }
+        tab_title = self.element_is_visible(tabs[tabs_num]['title'])
+        tab_title.click()
+        tab_content = self.element_is_visible(tabs[tabs_num]['content'])
+        print(tab_title.text)
+        print(len(tab_content.text))
+        return tab_title.text, len(tab_content.text)

@@ -1,6 +1,6 @@
 import time
 
-from pages.widgets_page import AccordianPage, AutoCompletPage, DatePage, SliderPage, ProgressBarPage
+from pages.widgets_page import AccordianPage, AutoCompletPage, DatePage, SliderPage, ProgressBarPage, TabsPage
 
 
 class TestAccordian:
@@ -75,3 +75,17 @@ class TestProgressBar:
         bar_value, output_bar_value = progress_bar_page.check_retry_button()
         assert bar_value > '0', "Bar not progress"
         assert output_bar_value == '0', "Bar not reset"
+
+class TestTabsPage:
+    def test_check_tabs(self, driver):
+        tabs_page = TabsPage(driver, 'https://demoqa.com/tabs')
+        tabs_page.open()
+        what_title, what_text = tabs_page.check_tabs('what')
+        origin_title, origin_text = tabs_page.check_tabs('origin')
+        use_title, use_text = tabs_page.check_tabs('use')
+        more_title, more_text = tabs_page.check_tabs('more')
+        assert what_title == 'What' and origin_text != '0', 'the tab "what" was not pressed or the text is missing'
+        assert origin_title == 'Origin' and origin_text != '0', 'the tab "Origin" was not pressed or the text is missing'
+        assert use_title == 'Use' and use_text != '0', 'the tab "Use" was not pressed or the text is missing'
+        assert more_title == 'More' and more_text != '0', 'the tab "More" was not pressed or the text is missing'
+
