@@ -36,3 +36,10 @@ class SliderPageLocators:
     SLIDER_LABEL = (By.CSS_SELECTOR, 'div[class="range-slider__tooltip__label"]')
     SLIDER_VALUE_FIELD = (By.CSS_SELECTOR, 'input[id="sliderValue"]')
 
+class ProgressBarPageLocators:
+    PROGRESS_BAR_INFO = (By.CSS_SELECTOR, 'div[class="progress-bar bg-info"]')
+    START_STOP_BUTTON = (By.CSS_SELECTOR, 'button[id="startStopButton"]')
+    RESET_BUTTON = (By.CSS_SELECTOR, 'id="resetButton"')
+
+
+

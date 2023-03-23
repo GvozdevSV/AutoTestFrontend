@@ -1,6 +1,6 @@
 import time
 
-from pages.widgets_page import AccordianPage, AutoCompletPage, DatePage, SliderPage
+from pages.widgets_page import AccordianPage, AutoCompletPage, DatePage, SliderPage, ProgressBarPage
 
 
 class TestAccordian:
@@ -61,3 +61,10 @@ class TestSlider:
         slider_page.open()
         input_value, output_value = slider_page.check_slider()
         assert input_value != output_value, "Slider not move"
+
+class TestProgressBar:
+    def test_check_progress_bar(self, driver):
+        progress_bar_page = ProgressBarPage(driver, 'https://demoqa.com/progress-bar')
+        progress_bar_page.open()
+        input_value, output_value = progress_bar_page.check_progress_bar()
+        assert input_value < output_value, "Not an progress"

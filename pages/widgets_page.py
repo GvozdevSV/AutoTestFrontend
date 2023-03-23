@@ -6,7 +6,8 @@ from selenium.webdriver import Keys
 from selenium.webdriver.support.select import Select
 
 from generator.generator import generated_color, generated_date
-from locators.widgets_licators import AccordianLocators, AutoCompletLocatars, DatePageLocators, SliderPageLocators
+from locators.widgets_licators import AccordianLocators, AutoCompletLocatars, DatePageLocators, SliderPageLocators, \
+    ProgressBarPageLocators
 from pages.base_page import BasePage
 
 
@@ -126,5 +127,14 @@ class SliderPage(BasePage):
         self.action_drag_and_drop_by_offset(slider_input, random.randint(0, 99), 0)
         output_value = self.element_is_visible(self.locators.SLIDER_VALUE_FIELD).get_attribute('value')
         return input_value, output_value
+class ProgressBarPage(BasePage):
+    locators = ProgressBarPageLocators
 
+    def check_progress_bar(self):
+        input_value = self.element_is_present(self.locators.PROGRESS_BAR_INFO).get_attribute('aria-valuenow')
+        self.element_is_present(self.locators.START_STOP_BUTTON).click()
+        time.sleep(random.randint(2, 4))
+        self.element_is_present(self.locators.START_STOP_BUTTON).click()
+        output_value = self.element_is_present(self.locators.PROGRESS_BAR_INFO).get_attribute('aria-valuenow')
+        return input_value, output_value
 
