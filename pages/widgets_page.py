@@ -138,3 +138,15 @@ class ProgressBarPage(BasePage):
         output_value = self.element_is_present(self.locators.PROGRESS_BAR_INFO).get_attribute('aria-valuenow')
         return input_value, output_value
 
+    def check_retry_button(self):
+        self.element_is_present(self.locators.START_STOP_BUTTON).click()
+        time.sleep(1)
+        bar_value = self.element_is_present(self.locators.PROGRESS_BAR_INFO).get_attribute('aria-valuenow')
+        self.element_is_present_long_wait(self.locators.RESET_BUTTON).click()
+        output_bar_value = self.element_is_present(self.locators.PROGRESS_BAR_INFO).get_attribute('aria-valuenow')
+        return bar_value, output_bar_value
+
+
+
+
+

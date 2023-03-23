@@ -68,3 +68,10 @@ class TestProgressBar:
         progress_bar_page.open()
         input_value, output_value = progress_bar_page.check_progress_bar()
         assert input_value < output_value, "Not an progress"
+
+    def test_check_return(self, driver):
+        progress_bar_page = ProgressBarPage(driver, 'https://demoqa.com/progress-bar')
+        progress_bar_page.open()
+        bar_value, output_bar_value = progress_bar_page.check_retry_button()
+        assert bar_value > '0', "Bar not progress"
+        assert output_bar_value == '0', "Bar not reset"
