@@ -7,7 +7,7 @@ from selenium.webdriver.support.select import Select
 
 from generator.generator import generated_color, generated_date
 from locators.widgets_licators import AccordianLocators, AutoCompletLocatars, DatePageLocators, SliderPageLocators, \
-    ProgressBarPageLocators, TabsPageLocators, ToolsTipsPageLocators
+    ProgressBarPageLocators, TabsPageLocators, ToolsTipsPageLocators, MemuPageLocators
 from pages.base_page import BasePage
 
 
@@ -186,7 +186,7 @@ class ToolsTipsPage(BasePage):
         self.action_move_to_element(element)
         self.element_is_visible(waite_elem)
         time.sleep(0.5)
-        tool_tip_text = self.element_is_visible(self.locators.TOOL_TIPS_INER)
+        tool_tip_text = self.element_is_visible(self.locators.TOOL_TIPS_INNER)
         text = tool_tip_text.text
         return text
 
@@ -196,6 +196,18 @@ class ToolsTipsPage(BasePage):
         field_text = self.get_tools_tips_text(self.locators.INPUT_FIELD, self.locators.TOOL_TIPS_INPUT_FIELD)
         contrary_text = self.get_tools_tips_text(self.locators.CONTRARY_LINK, self.locators.TOOL_TIPS_CONTRARY)
         section_text = self.get_tools_tips_text(self.locators.SECTION_LINK, self.locators.TOOL_TIPS_SECTION)
-        return  button_text,field_text, contrary_text,section_text
+        return button_text,field_text, contrary_text,section_text
+
+class MenuPage(BasePage):
+    locators =  MemuPageLocators
+
+    def check_menu_title(self):
+        menu_title_list = self.elements_are_present(self.locators.MENU_LIST)
+        data = []
+        for title in menu_title_list:
+            self.action_move_to_element(title)
+            data.append(title.text)
+        return data
+
 
 

@@ -63,7 +63,8 @@ class ToolsTipsPageLocators:
     SECTION_LINK = (By.XPATH, '//*[.="1.10.32"]')
     TOOL_TIPS_SECTION = (By.CSS_SELECTOR, 'a[aria-describedby="sectionToolTip"]')
 
-    TOOL_TIPS_INER = (By.CSS_SELECTOR, 'div[class="tooltip-inner"]')
+    TOOL_TIPS_INNER = (By.CSS_SELECTOR, 'div[class="tooltip-inner"]')
 
-
+class MemuPageLocators:
+    MENU_LIST = (By.CSS_SELECTOR, 'ul[id="nav"] li a')
 
