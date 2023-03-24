@@ -7,7 +7,7 @@ from selenium.webdriver.support.select import Select
 
 from generator.generator import generated_color, generated_date
 from locators.widgets_licators import AccordianLocators, AutoCompletLocatars, DatePageLocators, SliderPageLocators, \
-    ProgressBarPageLocators, TabsPageLocators
+    ProgressBarPageLocators, TabsPageLocators, ToolsTipsPageLocators
 from pages.base_page import BasePage
 
 
@@ -177,3 +177,25 @@ class TabsPage(BasePage):
         print(tab_title.text)
         print(len(tab_content.text))
         return tab_title.text, len(tab_content.text)
+
+class ToolsTipsPage(BasePage):
+    locators = ToolsTipsPageLocators
+
+    def get_tools_tips_text(self, hover_elem, waite_elem):
+        element = self.element_is_present(hover_elem)
+        self.action_move_to_element(element)
+        self.element_is_visible(waite_elem)
+        time.sleep(0.5)
+        tool_tip_text = self.element_is_visible(self.locators.TOOL_TIPS_INER)
+        text = tool_tip_text.text
+        return text
+
+
+    def check_tools_tips(self):
+        button_text = self.get_tools_tips_text(self.locators.BUTTON, self.locators.TOOL_TIPS_BUTTON)
+        field_text = self.get_tools_tips_text(self.locators.INPUT_FIELD, self.locators.TOOL_TIPS_INPUT_FIELD)
+        contrary_text = self.get_tools_tips_text(self.locators.CONTRARY_LINK, self.locators.TOOL_TIPS_CONTRARY)
+        section_text = self.get_tools_tips_text(self.locators.SECTION_LINK, self.locators.TOOL_TIPS_SECTION)
+        return  button_text,field_text, contrary_text,section_text
+
+
