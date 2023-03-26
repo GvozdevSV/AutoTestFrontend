@@ -68,3 +68,6 @@ class ToolsTipsPageLocators:
 class MemuPageLocators:
     MENU_LIST = (By.CSS_SELECTOR, 'ul[id="nav"] li a')
 
+class SelectMenuPageLocators:
+
+    SELECT_VALUE_TEXT = (By.CSS_SELECTOR, 'class=" css-1uccc91-singleValue"')
