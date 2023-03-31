@@ -13,3 +13,8 @@ class SelectablePageLocators:
     TAB_GRID_TITLE = (By.CSS_SELECTOR, 'a[id="demo-tab-grid"]')
     GRID_LIST = (By.CSS_SELECTOR, 'div[id="demo-tabpane-grid"] li[class="list-group-item list-group-item-action"]')
     GRID_LIST_ACTIVE = (By.CSS_SELECTOR, 'div[id="demo-tabpane-grid"] li[class="list-group-item active list-group-item-action"]')
+class ResizablePageLocators:
+    RESIZABLE_BOX_CORNER = (By.CSS_SELECTOR, 'div[id="resizableBoxWithRestriction"] span[class="react-resizable-handle react-resizable-handle-se"]')
+    OUTPUT_BOX = (By.CSS_SELECTOR, 'div[id="resizableBoxWithRestriction"]')
+    RESIZABLE_FREE_CORNER = (By.CSS_SELECTOR, 'div[id="resizable"] span[class="react-resizable-handle react-resizable-handle-se"]')
+    OUTPUT_FREE = (By.CSS_SELECTOR, 'div[id="resizable"]')
