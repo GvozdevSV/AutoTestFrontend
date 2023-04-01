@@ -1,4 +1,4 @@
-from pages.interactions_page import SortablePage, SelectablePage, ResizablePage
+from pages.interactions_page import SortablePage, SelectablePage, ResizablePage, DroppablePage
 
 
 class TestSortablePage:
@@ -30,4 +30,22 @@ class TestResizablePage:
         assert min_size == 'width: 150px; height: 150px;', "Min size not equal 150 x 150"
         assert max_size == 'width: 500px; height: 300px;', "Max size not equal 500 x 300"
         assert input_resize != output_resize, "Size not change"
+
+class TestDroppablePage:
+    def test_droppable(self, driver):
+        droppable_page = DroppablePage(driver, 'https://demoqa.com/droppable')
+        droppable_page.open()
+        simple_drop = droppable_page.check_simple_drop()
+        no_accept, accept = droppable_page.check_accept_drop()
+        no_greedy, greedy = droppable_page.check_prevent_drop()
+        revert_input, revert_output, not_revert_input, not_revert_output = droppable_page.check_revers()
+        assert simple_drop == "Dropped!", "Object not dropped"
+        assert no_accept == "Drop here", "Object dropped"
+        assert accept == "Dropped!", "Object not dropped"
+        assert no_greedy == ['Dropped!\nDropped!'], "No greedy object not dropped"
+        assert greedy == ['Outer droppable\nDropped!'], "Greedy object not dropped""
+        assert revert_input == revert_output, "Object not revert"
+        assert not_revert_input == not_revert_output, "Object not revert"
+
+
 
