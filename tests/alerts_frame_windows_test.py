@@ -13,14 +13,14 @@ class TestAlertsFrameWindows:
             test_new_tab_page = BrowserWindowsPage(driver, 'https://demoqa.com/browser-windows')
             test_new_tab_page.open()
             new_tab_text = test_new_tab_page.check_opened_new_tab()
-            assert new_tab_text == 'This is a sample page'
+            assert new_tab_text == 'This is a sample page', "the new tab has not opened or an incorrect tab has opened"
 
         @allure.title('открытие нового окна')
         def test_new_window(self, driver):
             test_new_window_page = BrowserWindowsPage(driver, 'https://demoqa.com/browser-windows')
             test_new_window_page.open()
             new_window_text = test_new_window_page.check_opened_new_window()
-            assert new_window_text == 'This is a sample page'
+            assert new_window_text == 'This is a sample page', "the new window has not opened or an incorrect window has opened"
 
     @allure.feature('Alerts Windows')
     class TestAlerts:
@@ -29,28 +29,28 @@ class TestAlertsFrameWindows:
             test_alert_page = AlertPage(driver, 'https://demoqa.com/alerts')
             test_alert_page.open()
             alert_text = test_alert_page.check_see_alert()
-            assert alert_text == 'You clicked a button'
+            assert alert_text == 'You clicked a button', "Alert did not show up"
 
         @allure.title('появление алерта через 5 секунд')
         def test_alerts_after_5_second(self, driver):
             test_alert_page = AlertPage(driver, 'https://demoqa.com/alerts')
             test_alert_page.open()
             alert_text = test_alert_page.check_alert_after_5_second()
-            assert alert_text == 'This alert appeared after 5 seconds'
+            assert alert_text == 'This alert appeared after 5 seconds', "Alert did not show up"
 
         @allure.title('уведомление с согласием')
         def test_alerts_confirm(self, driver):
             test_alert_page = AlertPage(driver, 'https://demoqa.com/alerts')
             test_alert_page.open()
             alert_text = test_alert_page.check_confirm_alert()
-            assert alert_text == 'You selected Ok'
+            assert alert_text == 'You selected Ok', "Alert did not show up"
 
         @allure.title('уведомление')
         def test_alerts_prompt(self, driver):
             test_alert_page = AlertPage(driver, 'https://demoqa.com/alerts')
             test_alert_page.open()
             text_result, text = test_alert_page.check_prompt_alert()
-            assert text_result == 'You entered ' + text
+            assert text_result == 'You entered ' + text, "Alert did not show up"
 
     @allure.feature('Frames')
     class TestFrames:
@@ -60,8 +60,8 @@ class TestAlertsFrameWindows:
             test_frames_page.open()
             result_frame1 = test_frames_page.check_frame('frame1')
             result_frame2 = test_frames_page.check_frame('frame2')
-            assert result_frame1 == ('This is a sample page', '500px', '350px')
-            assert result_frame2 == ('This is a sample page', '100px', '100px')
+            assert result_frame1 == ('This is a sample page', '500px', '350px'), 'The frame does not exist'
+            assert result_frame2 == ('This is a sample page', '100px', '100px'), 'The frame does not exist'
 
     @allure.feature('Nested Frames')
     class TestNestedFrames:
@@ -71,8 +71,8 @@ class TestAlertsFrameWindows:
             test_nested_frames_page.open()
             parents_result = test_nested_frames_page.check_nested_frames('parents_frame')
             child_result = test_nested_frames_page.check_nested_frames('child_frame')
-            assert parents_result == ('Parent frame', '500px', '350px')
-            assert child_result == 'Child Iframe'
+            assert parents_result == ('Parent frame', '500px', '350px'), 'Nested frame does not exist'
+            assert child_result == 'Child Iframe', 'Nested frame does not exist'
 
     @allure.feature('Modal Dialogs')
     class TestModalDialogs:
