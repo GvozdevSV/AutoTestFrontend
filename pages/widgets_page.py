@@ -1,6 +1,7 @@
 import random
 import time
 
+import allure
 from selenium.common import TimeoutException
 from selenium.webdriver import Keys
 from selenium.webdriver.support.select import Select
@@ -14,6 +15,7 @@ from pages.base_page import BasePage
 class AccordianPage(BasePage):
     locators = AccordianLocators
 
+    @allure.step("проверка аккордиона")
     def check_accordian(self, accordian_num):
         accordian = {'first':
                          {'title': self.locators.SECTION_FIRST,
@@ -38,6 +40,7 @@ class AccordianPage(BasePage):
 class AutoCompletPage(BasePage):
     locators = AutoCompletLocatars
 
+    @allure.step("ввод нескольких цветов")
     def fill_input_multi(self):
         colors = random.sample(next(generated_color()).color_name, k=random.randint(2, 5))
         for color in colors:
@@ -47,6 +50,7 @@ class AutoCompletPage(BasePage):
             time.sleep(1)
         return colors
 
+    @allure.step("удаление цветов, каждый цвет оттдельно")
     def remove_value_from_multi(self):
         count_value_before = len(self.elements_are_visible(self.locators.MULTI_COLOR_VALUE))
         remove_button_list = self.elements_are_visible(self.locators.MULTI_COLOR_DELETE_BUTTON)
@@ -56,6 +60,7 @@ class AutoCompletPage(BasePage):
         count_value_after = len(self.elements_are_visible(self.locators.MULTI_COLOR_VALUE))
         return count_value_before, count_value_after
 
+    @allure.step("удаление всех выбраных цветов с помощью кнопки")
     def remove_all_values_from_multi(self):
         count_value_before = len(self.elements_are_visible(self.locators.MULTI_COLOR_VALUE))
         delete_button = self.element_is_present(self.locators.MULTI_COLOR_DELETE_ALL_BUTTON)
@@ -66,6 +71,7 @@ class AutoCompletPage(BasePage):
             count_value_after = 0
         return count_value_before, count_value_after
 
+    @allure.step("формирование списка выбраных цветов")
     def check_color_in_multi(self):
         color_list = self.elements_are_visible(self.locators.MULTI_COLOR_VALUE)
         colors = []
@@ -73,6 +79,7 @@ class AutoCompletPage(BasePage):
             colors.append(color.text)
         return colors
 
+    @allure.step("введение цвета в поле с одним цветом")
     def check_input_color_in_single(self):
         color = random.sample(next(generated_color()).color_name, k=1)
         input_color = self.element_is_visible(self.locators.SINGLE_COLOR_INPUT_FIELD)
@@ -85,6 +92,7 @@ class AutoCompletPage(BasePage):
 class DatePage(BasePage):
     locators = DatePageLocators
 
+    @allure.step("проверка даты")
     def check_date(self):
         date = next(generated_date())
         input_date = self.element_is_visible(self.locators.DATE_FIELD)
@@ -96,10 +104,12 @@ class DatePage(BasePage):
         date_after = input_date.get_attribute('value')
         return date_before, date_after
 
+    @allure.step("выбор даты по тексту")
     def set_date_by_text(self, element, value):
         select = Select(self.element_is_present(element))
         select.select_by_visible_text(value)
 
+    @allure.step("выбор даты из списка")
     def set_date_item_from_list(self, elements, value):
         item_list = self.elements_are_present(elements)
         for item in item_list:
@@ -126,6 +136,7 @@ class DatePage(BasePage):
 class SliderPage(BasePage):
     locators = SliderPageLocators
 
+    @allure.step("проверка изменения положения слайдера")
     def check_slider(self):
         input_value = self.element_is_visible(self.locators.SLIDER_VALUE_FIELD).get_attribute('value')
         slider_input = self.element_is_visible(self.locators.INPUT_RANGE_SLIDER)
@@ -137,6 +148,7 @@ class SliderPage(BasePage):
 class ProgressBarPage(BasePage):
     locators = ProgressBarPageLocators
 
+    @allure.step("проверка изменения прогресса")
     def check_progress_bar(self):
         input_value = self.element_is_present(self.locators.PROGRESS_BAR_INFO).get_attribute('aria-valuenow')
         self.element_is_present(self.locators.START_STOP_BUTTON).click()
@@ -145,6 +157,7 @@ class ProgressBarPage(BasePage):
         output_value = self.element_is_present(self.locators.PROGRESS_BAR_INFO).get_attribute('aria-valuenow')
         return input_value, output_value
 
+    @allure.step("проверка кнопки возврата")
     def check_retry_button(self):
         self.element_is_present(self.locators.START_STOP_BUTTON).click()
         time.sleep(1)
@@ -157,6 +170,7 @@ class ProgressBarPage(BasePage):
 class TabsPage(BasePage):
     locators = TabsPageLocators
 
+    @allure.step("проверка заголовков и содержания вкладок")
     def check_tabs(self, tabs_num):
         tabs = {'what':
                     {'title': self.locators.WHAT_TITLE,
@@ -174,13 +188,12 @@ class TabsPage(BasePage):
         tab_title = self.element_is_visible(tabs[tabs_num]['title'])
         tab_title.click()
         tab_content = self.element_is_visible(tabs[tabs_num]['content'])
-        print(tab_title.text)
-        print(len(tab_content.text))
         return tab_title.text, len(tab_content.text)
 
 class ToolsTipsPage(BasePage):
     locators = ToolsTipsPageLocators
 
+    @allure.step("проверка текста подсказок")
     def get_tools_tips_text(self, hover_elem, waite_elem):
         element = self.element_is_present(hover_elem)
         self.action_move_to_element(element)
@@ -190,17 +203,18 @@ class ToolsTipsPage(BasePage):
         text = tool_tip_text.text
         return text
 
-
+    @allure.step("проверка подсказок")
     def check_tools_tips(self):
         button_text = self.get_tools_tips_text(self.locators.BUTTON, self.locators.TOOL_TIPS_BUTTON)
         field_text = self.get_tools_tips_text(self.locators.INPUT_FIELD, self.locators.TOOL_TIPS_INPUT_FIELD)
         contrary_text = self.get_tools_tips_text(self.locators.CONTRARY_LINK, self.locators.TOOL_TIPS_CONTRARY)
         section_text = self.get_tools_tips_text(self.locators.SECTION_LINK, self.locators.TOOL_TIPS_SECTION)
-        return button_text,field_text, contrary_text,section_text
+        return button_text, field_text, contrary_text, section_text
 
 class MenuPage(BasePage):
-    locators =  MemuPageLocators
+    locators = MemuPageLocators
 
+    @allure.step("проверка заголовков меню")
     def check_menu_title(self):
         menu_title_list = self.elements_are_present(self.locators.MENU_LIST)
         data = []
