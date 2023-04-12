@@ -1,6 +1,7 @@
 import os
 import time
 
+import allure
 from selenium.webdriver import Keys
 
 from generator.generator import generated_person, generated_file
@@ -11,6 +12,7 @@ from pages.base_page import BasePage
 class FormPage(BasePage):
     locators = FormPageLocators()
 
+    @allure.step("заполнение всех полей")
     def fill_form_fields(self):
         person = next(generated_person())
         file_name, path = generated_file()
@@ -32,6 +34,7 @@ class FormPage(BasePage):
         self.element_is_visible(self.locators.SUBMIT_BUTTON).click()
         return person
 
+    @allure.step("проверка заполненых полей")
     def check_form(self):
         form_result = self.elements_are_present(self.locators.CHECK_TABLE)
         data = []
