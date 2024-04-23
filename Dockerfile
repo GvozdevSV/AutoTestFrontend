@@ -26,4 +26,4 @@ WORKDIR /usr/workspace
 COPY ./requirements.txt /usr/workspace
 
 # Install Python dependencies
-RUN pip3 install -r requirements.txt
+RUN pip install -r requirements.txt
