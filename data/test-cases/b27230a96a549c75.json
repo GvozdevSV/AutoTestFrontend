@@ -1,0 +1,362 @@
+{
+  "uid" : "b27230a96a549c75",
+  "name" : "Check RadioButton",
+  "fullName" : "tests.elements_test.TestRadioButton#test_radio_button",
+  "historyId" : "0c911d6f3e437478e46d8915a261521f",
+  "time" : {
+    "start" : 1713876733092,
+    "stop" : 1713876741642,
+    "duration" : 8550
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 'not select no'\nassert 'Impressive' == 'no'\n  - no\n  + Impressive",
+  "statusTrace" : "self = <elements_test.TestElements.TestRadioButton object at 0x7febafab47c0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ff863e17b93c14d25209d056ead652b2\")>\n\n    @allure.title(\"Check RadioButton\")\n    def test_radio_button(self, driver):\n        radio_button_page = RadioButtonPage(driver, 'https://demoqa.com/radio-button')\n        radio_button_page.open()\n        radio_button_page.click_radio_button('yes')\n        output_yes = radio_button_page.get_output_result()\n        radio_button_page.click_radio_button('impressive')\n        output_impressive = radio_button_page.get_output_result()\n        radio_button_page.click_radio_button('no')\n        output_no = radio_button_page.get_output_result()\n        assert output_yes == 'Yes', \"'not select yes'\"\n        assert output_impressive == 'Impressive', \"'not select impressive'\"\n>       assert output_no == 'no', \"'not select no'\"\nE       AssertionError: 'not select no'\nE       assert 'Impressive' == 'no'\nE         - no\nE         + Impressive\n\ntests/elements_test.py:52: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1713876632897,
+      "stop" : 1713876632917,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1713876732338,
+      "stop" : 1713876733092,
+      "duration" : 754
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 'not select no'\nassert 'Impressive' == 'no'\n  - no\n  + Impressive",
+    "statusTrace" : "self = <elements_test.TestElements.TestRadioButton object at 0x7febafab47c0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ff863e17b93c14d25209d056ead652b2\")>\n\n    @allure.title(\"Check RadioButton\")\n    def test_radio_button(self, driver):\n        radio_button_page = RadioButtonPage(driver, 'https://demoqa.com/radio-button')\n        radio_button_page.open()\n        radio_button_page.click_radio_button('yes')\n        output_yes = radio_button_page.get_output_result()\n        radio_button_page.click_radio_button('impressive')\n        output_impressive = radio_button_page.get_output_result()\n        radio_button_page.click_radio_button('no')\n        output_no = radio_button_page.get_output_result()\n        assert output_yes == 'Yes', \"'not select yes'\"\n        assert output_impressive == 'Impressive', \"'not select impressive'\"\n>       assert output_no == 'no', \"'not select no'\"\nE       AssertionError: 'not select no'\nE       assert 'Impressive' == 'no'\nE         - no\nE         + Impressive\n\ntests/elements_test.py:52: AssertionError",
+    "steps" : [ {
+      "name" : "открыть",
+      "time" : {
+        "start" : 1713876733092,
+        "stop" : 1713876741322,
+        "duration" : 8230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "выбрать одну из трех радиокнопок",
+      "time" : {
+        "start" : 1713876741322,
+        "stop" : 1713876741388,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876741322,
+          "stop" : 1713876741344,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'label[class^=\"custom-control\"][for=\"yesRadio\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "choice",
+        "value" : "'yes'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "получить текст с выбранной кнопки",
+      "time" : {
+        "start" : 1713876741388,
+        "stop" : 1713876741414,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент представлен",
+        "time" : {
+          "start" : 1713876741389,
+          "stop" : 1713876741402,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'p span[class=\"text-success\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "выбрать одну из трех радиокнопок",
+      "time" : {
+        "start" : 1713876741415,
+        "stop" : 1713876741561,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876741415,
+          "stop" : 1713876741480,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'label[class^=\"custom-control\"][for=\"impressiveRadio\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "choice",
+        "value" : "'impressive'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "получить текст с выбранной кнопки",
+      "time" : {
+        "start" : 1713876741561,
+        "stop" : 1713876741575,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент представлен",
+        "time" : {
+          "start" : 1713876741561,
+          "stop" : 1713876741568,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'p span[class=\"text-success\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "выбрать одну из трех радиокнопок",
+      "time" : {
+        "start" : 1713876741575,
+        "stop" : 1713876741627,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876741575,
+          "stop" : 1713876741593,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'label[class^=\"custom-control\"][for=\"noRadio\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "choice",
+        "value" : "'no'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "получить текст с выбранной кнопки",
+      "time" : {
+        "start" : 1713876741627,
+        "stop" : 1713876741642,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент представлен",
+        "time" : {
+          "start" : 1713876741627,
+          "stop" : 1713876741635,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'p span[class=\"text-success\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1713876741648,
+      "stop" : 1713876741711,
+      "duration" : 63
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "RadioButton"
+  }, {
+    "name" : "suite",
+    "value" : "Elements"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestElements"
+  }, {
+    "name" : "host",
+    "value" : "b1f3987defed"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.elements_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b27230a96a549c75.json",
+  "parameterValues" : [ ]
+}

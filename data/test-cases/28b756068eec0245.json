@@ -1,0 +1,488 @@
+{
+  "uid" : "28b756068eec0245",
+  "name" : "проверка изменения размеров окон",
+  "fullName" : "tests.iteractions_test.TestResizablePage#test_resizeble",
+  "historyId" : "b7a654d9d4a7e41e7d930cab094bc030",
+  "time" : {
+    "start" : 1713876883338,
+    "stop" : 1713876897246,
+    "duration" : 13908
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Size not change\nassert 'width: 500px; height: 300px;' != 'width: 500px; height: 300px;'",
+  "statusTrace" : "self = <iteractions_test.TestInteractions.TestResizablePage object at 0x7febb05c3eb0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"024d4c9167cdb75d69e6ea68eb348767\")>\n\n    @allure.title('проверка изменения размеров окон')\n    def test_resizeble(self, driver):\n        resizable_page = ResizablePage(driver, 'https://demoqa.com/resizable')\n        resizable_page.open()\n        min_size, max_size = resizable_page.check_min_max_resize_box()\n        input_size, output_size = resizable_page.check_resize_box()\n        input_resize, output_resize = resizable_page.check_resize_free()\n>       assert input_size != output_size, \"Size not change\"\nE       AssertionError: Size not change\nE       assert 'width: 500px; height: 300px;' != 'width: 500px; height: 300px;'\n\ntests/iteractions_test.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1713876882588,
+      "stop" : 1713876883338,
+      "duration" : 750
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1713876632897,
+      "stop" : 1713876632917,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Size not change\nassert 'width: 500px; height: 300px;' != 'width: 500px; height: 300px;'",
+    "statusTrace" : "self = <iteractions_test.TestInteractions.TestResizablePage object at 0x7febb05c3eb0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"024d4c9167cdb75d69e6ea68eb348767\")>\n\n    @allure.title('проверка изменения размеров окон')\n    def test_resizeble(self, driver):\n        resizable_page = ResizablePage(driver, 'https://demoqa.com/resizable')\n        resizable_page.open()\n        min_size, max_size = resizable_page.check_min_max_resize_box()\n        input_size, output_size = resizable_page.check_resize_box()\n        input_resize, output_resize = resizable_page.check_resize_free()\n>       assert input_size != output_size, \"Size not change\"\nE       AssertionError: Size not change\nE       assert 'width: 500px; height: 300px;' != 'width: 500px; height: 300px;'\n\ntests/iteractions_test.py:37: AssertionError",
+    "steps" : [ {
+      "name" : "открыть",
+      "time" : {
+        "start" : 1713876883339,
+        "stop" : 1713876894945,
+        "duration" : 11606
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "проверить максимальный и минимальный размер ограниченного окна",
+      "time" : {
+        "start" : 1713876894945,
+        "stop" : 1713876896064,
+        "duration" : 1119
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент представлен",
+        "time" : {
+          "start" : 1713876894945,
+          "stop" : 1713876894955,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizableBoxWithRestriction\"] span[class=\"react-resizable-handle react-resizable-handle-se\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перетянуть предмет на позицию",
+        "time" : {
+          "start" : 1713876894955,
+          "stop" : 1713876895484,
+          "duration" : 529
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"024d4c9167cdb75d69e6ea68eb348767\", element=\"f.2B425C74E9D4629824F1CEC967CAB4A9.d.DD602596314CD5E015F497DE50395821.e.48\")>"
+        }, {
+          "name" : "x_coord",
+          "value" : "-200"
+        }, {
+          "name" : "y_coord",
+          "value" : "-200"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент представлен",
+        "time" : {
+          "start" : 1713876895485,
+          "stop" : 1713876895494,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizableBoxWithRestriction\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент представлен",
+        "time" : {
+          "start" : 1713876895505,
+          "stop" : 1713876895511,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizableBoxWithRestriction\"] span[class=\"react-resizable-handle react-resizable-handle-se\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перетянуть предмет на позицию",
+        "time" : {
+          "start" : 1713876895511,
+          "stop" : 1713876896047,
+          "duration" : 536
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"024d4c9167cdb75d69e6ea68eb348767\", element=\"f.2B425C74E9D4629824F1CEC967CAB4A9.d.DD602596314CD5E015F497DE50395821.e.48\")>"
+        }, {
+          "name" : "x_coord",
+          "value" : "500"
+        }, {
+          "name" : "y_coord",
+          "value" : "500"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент представлен",
+        "time" : {
+          "start" : 1713876896047,
+          "stop" : 1713876896053,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizableBoxWithRestriction\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "проверить изменение размера ограниченного окна ",
+      "time" : {
+        "start" : 1713876896064,
+        "stop" : 1713876896654,
+        "duration" : 590
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876896064,
+          "stop" : 1713876896081,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizableBoxWithRestriction\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876896090,
+          "stop" : 1713876896106,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizableBoxWithRestriction\"] span[class=\"react-resizable-handle react-resizable-handle-se\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перетянуть предмет на позицию",
+        "time" : {
+          "start" : 1713876896106,
+          "stop" : 1713876896630,
+          "duration" : 524
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"024d4c9167cdb75d69e6ea68eb348767\", element=\"f.2B425C74E9D4629824F1CEC967CAB4A9.d.DD602596314CD5E015F497DE50395821.e.48\")>"
+        }, {
+          "name" : "x_coord",
+          "value" : "168"
+        }, {
+          "name" : "y_coord",
+          "value" : "352"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876896631,
+          "stop" : 1713876896646,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizableBoxWithRestriction\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "проверить изменение размера неограниченного окна",
+      "time" : {
+        "start" : 1713876896654,
+        "stop" : 1713876897246,
+        "duration" : 592
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876896654,
+          "stop" : 1713876896672,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizable\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876896679,
+          "stop" : 1713876896697,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizable\"] span[class=\"react-resizable-handle react-resizable-handle-se\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перетянуть предмет на позицию",
+        "time" : {
+          "start" : 1713876896697,
+          "stop" : 1713876897224,
+          "duration" : 527
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"024d4c9167cdb75d69e6ea68eb348767\", element=\"f.2B425C74E9D4629824F1CEC967CAB4A9.d.DD602596314CD5E015F497DE50395821.e.50\")>"
+        }, {
+          "name" : "x_coord",
+          "value" : "98"
+        }, {
+          "name" : "y_coord",
+          "value" : "72"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1713876897224,
+          "stop" : 1713876897239,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"resizable\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 18,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1713876897261,
+      "stop" : 1713876897323,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestInteractions"
+  }, {
+    "name" : "feature",
+    "value" : "Resizable Page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInteractions"
+  }, {
+    "name" : "host",
+    "value" : "b1f3987defed"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.iteractions_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "28b756068eec0245.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,835 @@
+{
+  "e096e145949b91f67bd19c3af3d8df88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5ad93fc6f0e4c9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876661127,
+        "stop" : 1713876676837,
+        "duration" : 15710
+      }
+    } ]
+  },
+  "f7761b8d3d4c80453202b15a624ed574" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbcab1bade357b4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876797250,
+        "stop" : 1713876809605,
+        "duration" : 12355
+      }
+    } ]
+  },
+  "4c8d1aef1c76064c5341ad7e8d00a037" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "523426f21155b90a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876864507,
+        "stop" : 1713876868321,
+        "duration" : 3814
+      }
+    } ]
+  },
+  "7142860200616207a76c3aabb119b1e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4237b86eb11a5441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876898074,
+        "stop" : 1713876908336,
+        "duration" : 10262
+      }
+    } ]
+  },
+  "af26c5c24d8df79e8e9dfe062e277f26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acb20ec4d20f7864",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876677650,
+        "stop" : 1713876679269,
+        "duration" : 1619
+      }
+    } ]
+  },
+  "7d4758b3c872e9666868dbd5fe27b343" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c174177140caf3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876782616,
+        "stop" : 1713876785899,
+        "duration" : 3283
+      }
+    } ]
+  },
+  "9be4d486d9f23ee2d099e9729cae1542" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df2a3b08af4ef815",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713877008658,
+        "stop" : 1713877013741,
+        "duration" : 5083
+      }
+    } ]
+  },
+  "c6a0a29cb444e0eae4cb38ee0f4c4b69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4723f3c6dec67ca6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'text'",
+      "time" : {
+        "start" : 1713876717272,
+        "stop" : 1713876732227,
+        "duration" : 14955
+      }
+    } ]
+  },
+  "fdc19c853e533baa3c6b1228ba32d5e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f2d55703f3e41b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876636728,
+        "stop" : 1713876648669,
+        "duration" : 11941
+      }
+    } ]
+  },
+  "98be5b095e87fdce7dda467c24b98c96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71b62fec45a4fd6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876649486,
+        "stop" : 1713876660311,
+        "duration" : 10825
+      }
+    } ]
+  },
+  "1f24fb0db57fa8d0522525affaac6369" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8132f5d40202e4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876786719,
+        "stop" : 1713876796432,
+        "duration" : 9713
+      }
+    } ]
+  },
+  "b6187db690607d99484c56641def5524" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "762aaf3b49c98e2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876962100,
+        "stop" : 1713876964741,
+        "duration" : 2641
+      }
+    } ]
+  },
+  "1634eda6d89da41be6c713accd82485d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b59bf35700a0ac7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876707195,
+        "stop" : 1713876716458,
+        "duration" : 9263
+      }
+    } ]
+  },
+  "518e57c0206a9f5a2d9f47fd3b2f69cb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97d56eb48af44d14",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Date not change\nassert '04/23/2024' != '04/23/2024'",
+      "time" : {
+        "start" : 1713876958607,
+        "stop" : 1713876961280,
+        "duration" : 2673
+      }
+    } ]
+  },
+  "ada1d23a9d03353537ca7e20b720150b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb26f902daaa76bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876965560,
+        "stop" : 1713876977483,
+        "duration" : 11923
+      }
+    } ]
+  },
+  "e2f4d6406e01b33717965185fa9e7649" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1dc29c6bfed9c7b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713877014566,
+        "stop" : 1713877025327,
+        "duration" : 10761
+      }
+    } ]
+  },
+  "c686bb06dc9cb3d3925157a20c96e4f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a08ad04484520d7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1713876774759,
+        "stop" : 1713876781784,
+        "duration" : 7025
+      }
+    } ]
+  },
+  "c8f96e9063c5f975303edd5a0e7a3590" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81d146ce19a38ef7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876978305,
+        "stop" : 1713876990503,
+        "duration" : 12198
+      }
+    } ]
+  },
+  "b897a36c0ea027b61f7678f2e5cd5624" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15f6b631a72e70f5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: path is not absolute: C:\\Users\\ПК\\PycharmProjects\\AvtoTestFrontend\\testfile343.txt\n  (Session info: chrome-headless-shell=124.0.6367.60)",
+      "time" : {
+        "start" : 1713876810430,
+        "stop" : 1713876812411,
+        "duration" : 1981
+      }
+    } ]
+  },
+  "c48b86a57a25d5ca5f558159851d288e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d564c176aa042abc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876633698,
+        "stop" : 1713876635910,
+        "duration" : 2212
+      }
+    } ]
+  },
+  "58a731f4165dccb19aaebf25b952e9e6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43585a10b137cedb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Incorrect title or missing text\nassert ('Why do we use it?' == 'Why do we use it?'\n    Why do we use it? and 0 > 0)",
+      "time" : {
+        "start" : 1713876909160,
+        "stop" : 1713876911637,
+        "duration" : 2477
+      }
+    } ]
+  },
+  "b7a654d9d4a7e41e7d930cab094bc030" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28b756068eec0245",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Size not change\nassert 'width: 500px; height: 300px;' != 'width: 500px; height: 300px;'",
+      "time" : {
+        "start" : 1713876883338,
+        "stop" : 1713876897246,
+        "duration" : 13908
+      }
+    } ]
+  },
+  "8ab73ad9c1f8cff4b012b8eb1be01f90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7cf0b4921adb029",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876703397,
+        "stop" : 1713876706373,
+        "duration" : 2976
+      }
+    } ]
+  },
+  "56780d8e2227e0d03d7d2420010ad8db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4138379046b7524c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876840419,
+        "stop" : 1713876851153,
+        "duration" : 10734
+      }
+    } ]
+  },
+  "d4c0beb03f3da8904afa7903a640534b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bce5e7cc10690bb7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: None\nassert None",
+      "time" : {
+        "start" : 1713876815985,
+        "stop" : 1713876833376,
+        "duration" : 17391
+      }
+    } ]
+  },
+  "036b30b123e60e2c95f50d310177e5e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d37e9665471954a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876869138,
+        "stop" : 1713876882521,
+        "duration" : 13383
+      }
+    } ]
+  },
+  "b1fa58668ddd909cdb6ebae9edac54f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4508f69e2521c185",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: path is not absolute: C:\\Users\\ПК\\PycharmProjects\\AvtoTestFrontend\\testfile476.txt\n  (Session info: chrome-headless-shell=124.0.6367.60)",
+      "time" : {
+        "start" : 1713876851970,
+        "stop" : 1713876863657,
+        "duration" : 11687
+      }
+    } ]
+  },
+  "b676ce54b14e85a834edc61a3f500730" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c9841524142fefd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876691144,
+        "stop" : 1713876693376,
+        "duration" : 2232
+      }
+    } ]
+  },
+  "5cca98b97fa0f450e7ae95930fd2c21e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bea856babbb28fd0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a id=\"demo-tab-more\" href=\"#\" role=\"tab\" data-rb-event-key=\"more\" aria-controls=\"demo-tabpane-more\" tabindex=\"-1\" aria-selected=\"false\" class=\"nav-item nav-link disabled\" aria-disabled=\"true\">...</a> is not clickable at point (752, 334). Other element would receive the click: <nav class=\"nav nav-tabs\" role=\"tablist\">...</nav>\n  (Session info: chrome-headless-shell=124.0.6367.60)",
+      "time" : {
+        "start" : 1713876991320,
+        "stop" : 1713877007808,
+        "duration" : 16488
+      }
+    } ]
+  },
+  "eb96f3f87904f06abbbb8270d399ef78" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9965ad05e5b03fc7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: key not found\nassert 'Изот' in ['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance']",
+      "time" : {
+        "start" : 1713876746251,
+        "stop" : 1713876749394,
+        "duration" : 3143
+      }
+    } ]
+  },
+  "5209f228911658c6393e5e385d96396b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9faa86474501cccc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1713876834194,
+        "stop" : 1713876839599,
+        "duration" : 5405
+      }
+    } ]
+  },
+  "2d100b8089b622dac000d7511c7cafe4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "399a91787af87b21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876750220,
+        "stop" : 1713876754030,
+        "duration" : 3810
+      }
+    } ]
+  },
+  "8873fb0bc27e76ff437defd154d665a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc3f0c85d539a34b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876813259,
+        "stop" : 1713876815170,
+        "duration" : 1911
+      }
+    } ]
+  },
+  "4e7e520865b1503a669bda428b6b874c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "770d3e074f483a1a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1713876754846,
+        "stop" : 1713876763179,
+        "duration" : 8333
+      }
+    } ]
+  },
+  "ff9276ea9b5733fce3eff454d977d299" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e1cd8283e5f2dd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876694195,
+        "stop" : 1713876702579,
+        "duration" : 8384
+      }
+    } ]
+  },
+  "2eeed7266e04780aa1bf3666ae51ba37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "316d6b06f618e0ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876924911,
+        "stop" : 1713876936477,
+        "duration" : 11566
+      }
+    } ]
+  },
+  "5fd1be299af7871df05d58d13657f25e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb72fa68fb2073da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876742469,
+        "stop" : 1713876745431,
+        "duration" : 2962
+      }
+    } ]
+  },
+  "0c911d6f3e437478e46d8915a261521f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b27230a96a549c75",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'not select no'\nassert 'Impressive' == 'no'\n  - no\n  + Impressive",
+      "time" : {
+        "start" : 1713876733092,
+        "stop" : 1713876741642,
+        "duration" : 8550
+      }
+    } ]
+  },
+  "1b5d82b160c48e269382387e26b1fad4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "555c689be06500e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876680080,
+        "stop" : 1713876690321,
+        "duration" : 10241
+      }
+    } ]
+  },
+  "7392ae73d8e902e21d25bdc696ed9511" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e30dea773fbb7170",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1713876918685,
+        "stop" : 1713876924090,
+        "duration" : 5405
+      }
+    } ]
+  },
+  "f2b0c223dcee45a40f3d9896ac892523" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b18653e6979a202d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713876937296,
+        "stop" : 1713876957785,
+        "duration" : 20489
+      }
+    } ]
+  },
+  "d3afd3ebc40293d7de534f289bc37df9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e31eb2b9e934e61",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1713876912460,
+        "stop" : 1713876917867,
+        "duration" : 5407
+      }
+    } ]
+  },
+  "befb36cef857a91ee7f6c46bf9a5d157" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27363dd37f55dce3",
+      "status" : "broken",
+      "statusDetails" : "ValueError: could not convert string to float: 'option[value=\"{x}\"]'",
+      "time" : {
+        "start" : 1713876764015,
+        "stop" : 1713876773922,
+        "duration" : 9907
+      }
+    } ]
+  }
+}
