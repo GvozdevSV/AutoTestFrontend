@@ -3,7 +3,7 @@ version: '3.7'
 services:
   # Мое название сервиса
   regression:
-    image: python:3.12.0a4-alpine3.17
+    image: regression:v1
     build:
       context: .
       dockerfile: Dockerfile
