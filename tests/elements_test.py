@@ -23,7 +23,6 @@ class TestElements:
             assert current_address == output_cur_addr, "current address не совпадает"
             assert permanent_address == output_per_addr, "permanent address не совпадает"
 
-
     @allure.feature("CheckBox")
     class TestCheckBox:
         @allure.title('Check CheckBox')
@@ -35,11 +34,12 @@ class TestElements:
             input_checkbox = check_box_page.get_checked_checkboxes()
             output_result = check_box_page.get_output_result()
             assert input_checkbox == output_result, 'checkboxes have not been selected'
+
     @allure.feature("RadioButton")
     class TestRadioButton:
         @allure.title("Check RadioButton")
         def test_radio_button(self, driver):
-            radio_button_page = RadioButtonPage(driver,'https://demoqa.com/radio-button')
+            radio_button_page = RadioButtonPage(driver, 'https://demoqa.com/radio-button')
             radio_button_page.open()
             radio_button_page.click_radio_button('yes')
             output_yes = radio_button_page.get_output_result()
@@ -50,6 +50,7 @@ class TestElements:
             assert output_yes == 'Yes', "'not select yes'"
             assert output_impressive == 'Impressive', "'not select impressive'"
             assert output_no == 'no', "'not select no'"
+
     @allure.feature("WebTables")
     class TestWebTables:
         @allure.title("проверка добавления персоны")
@@ -94,15 +95,15 @@ class TestElements:
             web_tables_page = WebTablesPage(driver, 'https://demoqa.com/webtables')
             web_tables_page.open()
             count = web_tables_page.select_up_to_some_rows()
-            assert count == [5, 10, 20, 25, 50, 100], 'The number of row in table has not been changed or has chnge incorrectly'
-
+            assert count == [5, 10, 20, 25, 50,
+                             100], 'The number of row in table has not been changed or has chnge incorrectly'
 
     @allure.feature("Button")
     class TestButtonPage:
         @allure.title("проверка разных видов кликов")
         def test_different_click_on_buttons(self, driver):
             button_page = ButtonPage(driver, 'https://demoqa.com/buttons')
-            button_page .open()
+            button_page.open()
             double = button_page.click_on_different_buttons('double')
             right = button_page.click_on_different_buttons('right')
             click = button_page.click_on_different_buttons('click')
@@ -171,6 +172,3 @@ class TestElements:
             dynamics_properties_page.open()
             appear = dynamics_properties_page.check_apper_at_time()
             assert appear is True
-
-
-

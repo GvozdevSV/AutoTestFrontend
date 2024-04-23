@@ -1,4 +1,5 @@
 import allure
+from allure_commons.types import AttachmentType
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait as wait
 from selenium.webdriver.support import expected_conditions as EC
@@ -72,3 +73,11 @@ class BasePage:
         action = ActionChains(self.driver)
         action.move_to_element(element)
         action.perform()
+
+    @allure.step("сделать скриншот")
+    def make_screenshot(self, screenshot_name):
+        allure.attach(
+            body=self.driver.get_screenshot_as_png(),
+            name=screenshot_name,
+            attachment_type=AttachmentType.PNG
+        )
