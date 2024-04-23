@@ -21,9 +21,5 @@ RUN apk update && \
     rm allure-2.13.8.tgz
 
 WORKDIR /usr/workspace
-
-# Copy the dependencies file to the working directory
 COPY ./requirements.txt /usr/workspace
-
-# Install Python dependencies
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
