@@ -1,15 +1,20 @@
+import os
+
 import pytest
+from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService, Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
-CI = None
+load_dotenv()
+
+CI = os.getenv('CI')
 
 
 @pytest.fixture(scope='function')
 def driver():
-    if CI == None:
+    if CI == False:
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
         driver.maximize_window()
     else:
