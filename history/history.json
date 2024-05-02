@@ -2,140 +2,133 @@
   "e096e145949b91f67bd19c3af3d8df88" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "801f0e3e78bc9677",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "4ac37d8bd4c0b7dc",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746013,
-        "stop" : 1714631746013,
-        "duration" : 0
+        "start" : 1714646782037,
+        "stop" : 1714646788881,
+        "duration" : 6844
       }
     } ]
   },
   "f7761b8d3d4c80453202b15a624ed574" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "60784870fd51f7fc",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "69c6fd4fcf5c2ef2",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746308,
-        "stop" : 1714631746308,
-        "duration" : 0
+        "start" : 1714646921387,
+        "stop" : 1714646935691,
+        "duration" : 14304
       }
     } ]
   },
   "4c8d1aef1c76064c5341ad7e8d00a037" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b6431c460dab8206",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "f9468bce02cc6f9b",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746429,
-        "stop" : 1714631746429,
-        "duration" : 0
+        "start" : 1714646996163,
+        "stop" : 1714647005281,
+        "duration" : 9118
       }
     } ]
   },
   "7142860200616207a76c3aabb119b1e3" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9a0b7eccdd5aaf12",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "528151a8e5cadced",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746481,
-        "stop" : 1714631746481,
-        "duration" : 0
-      }
-    } ]
-  },
-  "9be4d486d9f23ee2d099e9729cae1542" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "17628c87ee9c05cd",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
-      "time" : {
-        "start" : 1714631746684,
-        "stop" : 1714631746684,
-        "duration" : 0
+        "start" : 1714647312037,
+        "stop" : 1714647332547,
+        "duration" : 20510
       }
     } ]
   },
   "af26c5c24d8df79e8e9dfe062e277f26" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a9a7b993af6ae60b",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "acac84a14b8b428a",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746030,
-        "stop" : 1714631746030,
-        "duration" : 0
+        "start" : 1714646789692,
+        "stop" : 1714646791697,
+        "duration" : 2005
+      }
+    } ]
+  },
+  "9be4d486d9f23ee2d099e9729cae1542" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "212d4f82101921c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714647453586,
+        "stop" : 1714647458724,
+        "duration" : 5138
       }
     } ]
   },
   "7d4758b3c872e9666868dbd5fe27b343" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6153606adf50993d",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "b10b0aa0c6606003",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746275,
-        "stop" : 1714631746275,
-        "duration" : 0
+        "start" : 1714646902955,
+        "stop" : 1714646912137,
+        "duration" : 9182
       }
     } ]
   },
@@ -149,13 +142,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d08d19dff3ddb028",
+      "uid" : "6da65c6bda00d10d",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'text'",
       "time" : {
-        "start" : 1714631746137,
-        "stop" : 1714631746137,
-        "duration" : 0
+        "start" : 1714646836693,
+        "stop" : 1714646839867,
+        "duration" : 3174
+      }
+    } ]
+  },
+  "98be5b095e87fdce7dda467c24b98c96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eaa78cf1362bb58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714646774277,
+        "stop" : 1714646781228,
+        "duration" : 6951
       }
     } ]
   },
@@ -169,113 +181,70 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f907fa5991eb8c8",
+      "uid" : "ddf733a7c524a1a2",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1714631745978,
-        "stop" : 1714631745978,
-        "duration" : 0
-      }
-    } ]
-  },
-  "98be5b095e87fdce7dda467c24b98c96" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "78ffe9bfd35e2cfa",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
-      "time" : {
-        "start" : 1714631745995,
-        "stop" : 1714631745995,
-        "duration" : 0
+        "start" : 1714646768066,
+        "stop" : 1714646773468,
+        "duration" : 5402
       }
     } ]
   },
   "b6187db690607d99484c56641def5524" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ed3beec054e2e3d",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "8ba52f6dc1edf11",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746615,
-        "stop" : 1714631746615,
-        "duration" : 0
+        "start" : 1714647386559,
+        "stop" : 1714647395859,
+        "duration" : 9300
       }
     } ]
   },
   "1f24fb0db57fa8d0522525affaac6369" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45acaa3ae5461494",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "ab6568ad7bffa0e0",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746292,
-        "stop" : 1714631746292,
-        "duration" : 0
+        "start" : 1714646912947,
+        "stop" : 1714646920578,
+        "duration" : 7631
       }
     } ]
   },
   "1634eda6d89da41be6c713accd82485d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8584554dcca783c",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "a57b4e7db2a0bb32",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746119,
-        "stop" : 1714631746119,
-        "duration" : 0
-      }
-    } ]
-  },
-  "ada1d23a9d03353537ca7e20b720150b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ac25b358330c3736",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
-      "time" : {
-        "start" : 1714631746632,
-        "stop" : 1714631746632,
-        "duration" : 0
+        "start" : 1714646826371,
+        "stop" : 1714646835885,
+        "duration" : 9514
       }
     } ]
   },
@@ -289,73 +258,89 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "642c621ba4e84bfb",
+      "uid" : "bd761baa2dc83b02",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1714631746598,
-        "stop" : 1714631746598,
-        "duration" : 0
+        "start" : 1714647380349,
+        "stop" : 1714647385746,
+        "duration" : 5397
+      }
+    } ]
+  },
+  "ada1d23a9d03353537ca7e20b720150b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "720b931f3b4c15bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714647396669,
+        "stop" : 1714647400696,
+        "duration" : 4027
       }
     } ]
   },
   "c686bb06dc9cb3d3925157a20c96e4f6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7219a307fa2b0bae",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "b9fd14405a66bcda",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746258,
-        "stop" : 1714631746258,
-        "duration" : 0
+        "start" : 1714646891155,
+        "stop" : 1714646902146,
+        "duration" : 10991
       }
     } ]
   },
   "e2f4d6406e01b33717965185fa9e7649" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1cc980348a3ca83e",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "f94e1326e50703ef",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746700,
-        "stop" : 1714631746700,
-        "duration" : 0
+        "start" : 1714647459538,
+        "stop" : 1714647468963,
+        "duration" : 9425
       }
     } ]
   },
   "c8f96e9063c5f975303edd5a0e7a3590" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "12b9259312697e00",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "27144a0257aca416",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746650,
-        "stop" : 1714631746650,
-        "duration" : 0
+        "start" : 1714647401510,
+        "stop" : 1714647423298,
+        "duration" : 21788
       }
     } ]
   },
@@ -369,13 +354,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f8c5b0c1acb27687",
+      "uid" : "db292574557cbb4c",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1714631745902,
-        "stop" : 1714631745902,
-        "duration" : 0
+        "start" : 1714646752519,
+        "stop" : 1714646767209,
+        "duration" : 14690
       }
     } ]
   },
@@ -389,33 +374,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "65e3595286501c4d",
+      "uid" : "ed06d784551a62d6",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: path is not absolute: C:\\Users\\ПК\\PycharmProjects\\AvtoTestFrontend\\testfile899.txt\n  (Session info: chrome-headless-shell=124.0.6367.78)",
       "time" : {
-        "start" : 1714631746325,
-        "stop" : 1714631746325,
-        "duration" : 0
+        "start" : 1714646936501,
+        "stop" : 1714646944956,
+        "duration" : 8455
       }
     } ]
   },
   "b7a654d9d4a7e41e7d930cab094bc030" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb48cbe9a842dd31",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "84406a02ddf6f537",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Size not change\nassert 'width: 500px; height: 300px;' != 'width: 500px; height: 300px;'",
       "time" : {
-        "start" : 1714631746464,
-        "stop" : 1714631746464,
-        "duration" : 0
+        "start" : 1714647306939,
+        "stop" : 1714647311227,
+        "duration" : 4288
       }
     } ]
   },
@@ -429,73 +414,71 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cdecd59915bde26b",
+      "uid" : "9961bb03e72b55e7",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"card-header\" id=\"section3Heading\">...</div> is not clickable at point (952, 515). Other element would receive the click: <p class=\"\">...</p>\n  (Session info: chrome-headless-shell=124.0.6367.78)",
       "time" : {
-        "start" : 1714631746499,
-        "stop" : 1714631746499,
-        "duration" : 0
-      }
-    } ]
-  },
-  "8ab73ad9c1f8cff4b012b8eb1be01f90" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "17ad957289bdce51",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
-      "time" : {
-        "start" : 1714631746099,
-        "stop" : 1714631746099,
-        "duration" : 0
+        "start" : 1714647333356,
+        "stop" : 1714647343613,
+        "duration" : 10257
       }
     } ]
   },
   "56780d8e2227e0d03d7d2420010ad8db" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f39d4a405216ba41",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "9c6213e521ca478e",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746395,
-        "stop" : 1714631746395,
-        "duration" : 0
+        "start" : 1714646976814,
+        "stop" : 1714646983124,
+        "duration" : 6310
+      }
+    } ]
+  },
+  "8ab73ad9c1f8cff4b012b8eb1be01f90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83c9f12f21fca5e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714646822610,
+        "stop" : 1714646825560,
+        "duration" : 2950
       }
     } ]
   },
   "d4c0beb03f3da8904afa7903a640534b" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a1bbf429c203c2e7",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "c5f9b16372c47ad1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: None\nassert None",
       "time" : {
-        "start" : 1714631746360,
-        "stop" : 1714631746360,
-        "duration" : 0
+        "start" : 1714646954317,
+        "stop" : 1714646967320,
+        "duration" : 13003
       }
     } ]
   },
@@ -509,13 +492,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4eff238670f2fb4d",
+      "uid" : "dd1f394b7b193011",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.679\n  (Session info: chrome-headless-shell=124.0.6367.78)",
       "time" : {
-        "start" : 1714631746447,
-        "stop" : 1714631746447,
-        "duration" : 0
+        "start" : 1714647006091,
+        "stop" : 1714647306093,
+        "duration" : 300002
       }
     } ]
   },
@@ -529,33 +512,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f54a12d65da0f74e",
+      "uid" : "57db41997da805d2",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: path is not absolute: C:\\Users\\ПК\\PycharmProjects\\AvtoTestFrontend\\testfile0.txt\n  (Session info: chrome-headless-shell=124.0.6367.78)",
       "time" : {
-        "start" : 1714631746412,
-        "stop" : 1714631746412,
-        "duration" : 0
+        "start" : 1714646983941,
+        "stop" : 1714646995324,
+        "duration" : 11383
       }
     } ]
   },
   "b676ce54b14e85a834edc61a3f500730" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4bd90795a17f9999",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "f041a77739e9279e",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746065,
-        "stop" : 1714631746065,
-        "duration" : 0
+        "start" : 1714646804870,
+        "stop" : 1714646813729,
+        "duration" : 8859
       }
     } ]
   },
@@ -569,93 +551,90 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b9f8c85941f10a3",
+      "uid" : "2f4d1518024f6ae7",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a id=\"demo-tab-more\" href=\"#\" role=\"tab\" data-rb-event-key=\"more\" aria-controls=\"demo-tabpane-more\" tabindex=\"-1\" aria-selected=\"false\" class=\"nav-item nav-link disabled\" aria-disabled=\"true\">...</a> is not clickable at point (752, 424). Other element would receive the click: <nav class=\"nav nav-tabs\" role=\"tablist\">...</nav>\n  (Session info: chrome-headless-shell=124.0.6367.78)",
       "time" : {
-        "start" : 1714631746667,
-        "stop" : 1714631746667,
-        "duration" : 0
+        "start" : 1714647424111,
+        "stop" : 1714647452749,
+        "duration" : 28638
       }
     } ]
   },
   "eb96f3f87904f06abbbb8270d399ef78" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3dbf371e331751c8",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "2b1a5bea9023b15",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: key not found\nassert 'София' in ['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance']",
       "time" : {
-        "start" : 1714631746189,
-        "stop" : 1714631746189,
-        "duration" : 0
+        "start" : 1714646847645,
+        "stop" : 1714646859538,
+        "duration" : 11893
       }
     } ]
   },
   "5209f228911658c6393e5e385d96396b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "93eecbb629d414f9",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "6f2265cc39a24220",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746377,
-        "stop" : 1714631746377,
-        "duration" : 0
-      }
-    } ]
-  },
-  "2d100b8089b622dac000d7511c7cafe4" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4dd89a917b144a79",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
-      "time" : {
-        "start" : 1714631746206,
-        "stop" : 1714631746206,
-        "duration" : 0
+        "start" : 1714646968134,
+        "stop" : 1714646976003,
+        "duration" : 7869
       }
     } ]
   },
   "8873fb0bc27e76ff437defd154d665a7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "19838b9e4b87c93b",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "9492941f5e1eed8b",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746342,
-        "stop" : 1714631746342,
-        "duration" : 0
+        "start" : 1714646945795,
+        "stop" : 1714646953507,
+        "duration" : 7712
+      }
+    } ]
+  },
+  "2d100b8089b622dac000d7511c7cafe4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3023c45ecf2c7aed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714646860366,
+        "stop" : 1714646873162,
+        "duration" : 12796
       }
     } ]
   },
@@ -669,133 +648,128 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a1d5b41114a3b3a6",
+      "uid" : "6e990ad3be11c77c",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1714631746224,
-        "stop" : 1714631746224,
-        "duration" : 0
+        "start" : 1714646873970,
+        "stop" : 1714646882295,
+        "duration" : 8325
       }
     } ]
   },
   "ff9276ea9b5733fce3eff454d977d299" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "210b1cc283ec925a",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "aac381b66a79ce2b",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746082,
-        "stop" : 1714631746082,
-        "duration" : 0
+        "start" : 1714646814540,
+        "stop" : 1714646821800,
+        "duration" : 7260
       }
     } ]
   },
   "2eeed7266e04780aa1bf3666ae51ba37" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8c141b9a7ce82980",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "ad05cc647199c717",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746550,
-        "stop" : 1714631746550,
-        "duration" : 0
-      }
-    } ]
-  },
-  "0c911d6f3e437478e46d8915a261521f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8a3ee5acfd7b694a",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
-      "time" : {
-        "start" : 1714631746154,
-        "stop" : 1714631746154,
-        "duration" : 0
-      }
-    } ]
-  },
-  "1b5d82b160c48e269382387e26b1fad4" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d337969a234cbe1d",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
-      "time" : {
-        "start" : 1714631746047,
-        "stop" : 1714631746047,
-        "duration" : 0
+        "start" : 1714647362879,
+        "stop" : 1714647373322,
+        "duration" : 10443
       }
     } ]
   },
   "5fd1be299af7871df05d58d13657f25e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7511fd3e158f0fb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714646843846,
+        "stop" : 1714646846835,
+        "duration" : 2989
+      }
+    } ]
+  },
+  "0c911d6f3e437478e46d8915a261521f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ff1b1611cc9d66a",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "d858184db2036f51",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'not select no'\nassert 'Impressive' == 'no'\n  - no\n  + Impressive",
       "time" : {
-        "start" : 1714631746171,
-        "stop" : 1714631746171,
-        "duration" : 0
+        "start" : 1714646840688,
+        "stop" : 1714646842998,
+        "duration" : 2310
+      }
+    } ]
+  },
+  "1b5d82b160c48e269382387e26b1fad4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "845db18f62f8d595",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714646792508,
+        "stop" : 1714646804060,
+        "duration" : 11552
       }
     } ]
   },
   "7392ae73d8e902e21d25bdc696ed9511" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57289446c20a860c",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "206ed1201bbb0c7f",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746533,
-        "stop" : 1714631746533,
-        "duration" : 0
+        "start" : 1714647357545,
+        "stop" : 1714647362068,
+        "duration" : 4523
       }
     } ]
   },
@@ -809,33 +783,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8fefb839506f30b7",
+      "uid" : "1a326ec614d52d94",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1714631746580,
-        "stop" : 1714631746580,
-        "duration" : 0
+        "start" : 1714647374140,
+        "stop" : 1714647379538,
+        "duration" : 5398
       }
     } ]
   },
   "d3afd3ebc40293d7de534f289bc37df9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "853fc4592bc39f63",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "uid" : "d1ba9b3904f2850a",
+      "status" : "passed",
       "time" : {
-        "start" : 1714631746516,
-        "stop" : 1714631746516,
-        "duration" : 0
+        "start" : 1714647344447,
+        "stop" : 1714647356735,
+        "duration" : 12288
       }
     } ]
   },
@@ -849,13 +822,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "44b6b9faceeda504",
+      "uid" : "9f00c5cc9fb5ff44",
       "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'split'",
+      "statusDetails" : "ValueError: could not convert string to float: 'option[value=\"{x}\"]'",
       "time" : {
-        "start" : 1714631746241,
-        "stop" : 1714631746241,
-        "duration" : 0
+        "start" : 1714646883112,
+        "stop" : 1714646890327,
+        "duration" : 7215
       }
     } ]
   }
