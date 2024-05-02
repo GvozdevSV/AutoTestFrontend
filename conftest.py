@@ -14,7 +14,7 @@ CI = os.getenv('CI')
 
 @pytest.fixture(scope='function')
 def driver():
-    if CI == False:
+    if CI == "False":
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
         driver.maximize_window()
     else:
