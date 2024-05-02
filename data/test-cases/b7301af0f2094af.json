@@ -1,0 +1,552 @@
+{
+  "uid" : "b7301af0f2094af",
+  "name" : "проверка подсказок",
+  "fullName" : "tests.widgets_test.TestToolsTipsPage#test_check_tabs",
+  "historyId" : "9be4d486d9f23ee2d099e9729cae1542",
+  "time" : {
+    "start" : 1714652720641,
+    "stop" : 1714652725622,
+    "duration" : 4981
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1714652719893,
+      "stop" : 1714652720641,
+      "duration" : 748
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1714652125520,
+      "stop" : 1714652125540,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть",
+      "time" : {
+        "start" : 1714652720641,
+        "stop" : 1714652722222,
+        "duration" : 1581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "проверка подсказок",
+      "time" : {
+        "start" : 1714652722222,
+        "stop" : 1714652725622,
+        "duration" : 3400
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "проверка текста подсказок",
+        "time" : {
+          "start" : 1714652722222,
+          "stop" : 1714652723186,
+          "duration" : 964
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "элемент представлен",
+          "time" : {
+            "start" : 1714652722223,
+            "stop" : 1714652722278,
+            "duration" : 55
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'button[id=\"toolTipButton\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "перейти к элементу",
+          "time" : {
+            "start" : 1714652722278,
+            "stop" : 1714652722562,
+            "duration" : 284
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "element",
+            "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"e4fe0e6ce0cc0df4d80ac167f1ecae97\", element=\"f.78D283E0D9F1EA1B0E68DD5201785C88.d.61F2397667970E2E23DD61D056BF2C6A.e.20\")>"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "элемент видим",
+          "time" : {
+            "start" : 1714652722562,
+            "stop" : 1714652722654,
+            "duration" : 92
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'button[aria-describedby=\"buttonToolTip\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "элемент видим",
+          "time" : {
+            "start" : 1714652723155,
+            "stop" : 1714652723175,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'div[class=\"tooltip-inner\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "hover_elem",
+          "value" : "('css selector', 'button[id=\"toolTipButton\"]')"
+        }, {
+          "name" : "waite_elem",
+          "value" : "('css selector', 'button[aria-describedby=\"buttonToolTip\"]')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "проверка текста подсказок",
+        "time" : {
+          "start" : 1714652723187,
+          "stop" : 1714652723998,
+          "duration" : 811
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "элемент представлен",
+          "time" : {
+            "start" : 1714652723187,
+            "stop" : 1714652723195,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'input[id=\"toolTipTextField\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "перейти к элементу",
+          "time" : {
+            "start" : 1714652723195,
+            "stop" : 1714652723458,
+            "duration" : 263
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "element",
+            "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"e4fe0e6ce0cc0df4d80ac167f1ecae97\", element=\"f.78D283E0D9F1EA1B0E68DD5201785C88.d.61F2397667970E2E23DD61D056BF2C6A.e.39\")>"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "элемент видим",
+          "time" : {
+            "start" : 1714652723458,
+            "stop" : 1714652723476,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'input[aria-describedby=\"textFieldToolTip\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "элемент видим",
+          "time" : {
+            "start" : 1714652723976,
+            "stop" : 1714652723991,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'div[class=\"tooltip-inner\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "hover_elem",
+          "value" : "('css selector', 'input[id=\"toolTipTextField\"]')"
+        }, {
+          "name" : "waite_elem",
+          "value" : "('css selector', 'input[aria-describedby=\"textFieldToolTip\"]')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "проверка текста подсказок",
+        "time" : {
+          "start" : 1714652723998,
+          "stop" : 1714652724811,
+          "duration" : 813
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "элемент представлен",
+          "time" : {
+            "start" : 1714652723998,
+            "stop" : 1714652724007,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//*[.=\"Contrary\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "перейти к элементу",
+          "time" : {
+            "start" : 1714652724007,
+            "stop" : 1714652724271,
+            "duration" : 264
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "element",
+            "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"e4fe0e6ce0cc0df4d80ac167f1ecae97\", element=\"f.78D283E0D9F1EA1B0E68DD5201785C88.d.61F2397667970E2E23DD61D056BF2C6A.e.42\")>"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "элемент видим",
+          "time" : {
+            "start" : 1714652724272,
+            "stop" : 1714652724289,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'a[aria-describedby=\"contraryTexToolTip\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "элемент видим",
+          "time" : {
+            "start" : 1714652724790,
+            "stop" : 1714652724804,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'div[class=\"tooltip-inner\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "hover_elem",
+          "value" : "('xpath', '//*[.=\"Contrary\"]')"
+        }, {
+          "name" : "waite_elem",
+          "value" : "('css selector', 'a[aria-describedby=\"contraryTexToolTip\"]')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "проверка текста подсказок",
+        "time" : {
+          "start" : 1714652724811,
+          "stop" : 1714652725622,
+          "duration" : 811
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "элемент представлен",
+          "time" : {
+            "start" : 1714652724811,
+            "stop" : 1714652724820,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//*[.=\"1.10.32\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "перейти к элементу",
+          "time" : {
+            "start" : 1714652724820,
+            "stop" : 1714652725082,
+            "duration" : 262
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "element",
+            "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"e4fe0e6ce0cc0df4d80ac167f1ecae97\", element=\"f.78D283E0D9F1EA1B0E68DD5201785C88.d.61F2397667970E2E23DD61D056BF2C6A.e.44\")>"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "элемент видим",
+          "time" : {
+            "start" : 1714652725083,
+            "stop" : 1714652725100,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'a[aria-describedby=\"sectionToolTip\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "элемент видим",
+          "time" : {
+            "start" : 1714652725601,
+            "stop" : 1714652725615,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'div[class=\"tooltip-inner\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "hover_elem",
+          "value" : "('xpath', '//*[.=\"1.10.32\"]')"
+        }, {
+          "name" : "waite_elem",
+          "value" : "('css selector', 'a[aria-describedby=\"sectionToolTip\"]')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 20,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 22,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1714652725622,
+      "stop" : 1714652725684,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Tools Tips"
+  }, {
+    "name" : "suite",
+    "value" : "Widgets"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWidgets"
+  }, {
+    "name" : "host",
+    "value" : "3d2c3a5cdaba"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.widgets_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7301af0f2094af.json",
+  "parameterValues" : [ ]
+}
