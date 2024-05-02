@@ -1,6 +1,8 @@
 import allure
 
 from pages.interactions_page import SortablePage, SelectablePage, ResizablePage, DroppablePage
+
+
 @allure.suite('TestInteractions')
 class TestInteractions:
     @allure.feature('Sortable Page')
@@ -56,6 +58,3 @@ class TestInteractions:
             assert greedy == ['Outer droppable\nDropped!'], "Greedy object not dropped"
             assert revert_input == revert_output, "Object not revert"
             assert not_revert_input == not_revert_output, "Object not revert"
-
-
-
