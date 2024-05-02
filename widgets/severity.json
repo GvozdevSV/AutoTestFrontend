@@ -1,431 +1,431 @@
 [ {
-  "uid" : "d37e9665471954a3",
-  "name" : "проверка выбора объекта из списка и таблицы",
-  "time" : {
-    "start" : 1713876869138,
-    "stop" : 1713876882521,
-    "duration" : 13383
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "316d6b06f618e0ae",
-  "name" : "проверка поля ввода нескольких цветов",
-  "time" : {
-    "start" : 1713876924911,
-    "stop" : 1713876936477,
-    "duration" : 11566
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c9841524142fefd",
-  "name" : "рамки",
-  "time" : {
-    "start" : 1713876691144,
-    "stop" : 1713876693376,
-    "duration" : 2232
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b18653e6979a202d",
-  "name" : "проверка поля ввода одного цвета",
-  "time" : {
-    "start" : 1713876937296,
-    "stop" : 1713876957785,
-    "duration" : 20489
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "523426f21155b90a",
-  "name" : "проверка перемешивания объектов",
-  "time" : {
-    "start" : 1713876864507,
-    "stop" : 1713876868321,
-    "duration" : 3814
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc3f0c85d539a34b",
-  "name" : "проверка загрузки файла",
-  "time" : {
-    "start" : 1713876813259,
-    "stop" : 1713876815170,
-    "duration" : 1911
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5ad93fc6f0e4c9a",
-  "name" : "появление алерта через 5 секунд",
-  "time" : {
-    "start" : 1713876661127,
-    "stop" : 1713876676837,
-    "duration" : 15710
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bea856babbb28fd0",
-  "name" : "проверка вкладок",
-  "time" : {
-    "start" : 1713876991320,
-    "stop" : 1713877007808,
-    "duration" : 16488
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9965ad05e5b03fc7",
-  "name" : "проверка поиска персоны",
-  "time" : {
-    "start" : 1713876746251,
-    "stop" : 1713876749394,
-    "duration" : 3143
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "27363dd37f55dce3",
-  "name" : "проверка изменения количества строк на странице",
-  "time" : {
-    "start" : 1713876764015,
-    "stop" : 1713876773922,
-    "duration" : 9907
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "399a91787af87b21",
-  "name" : "проверка обновления данных персоны",
-  "time" : {
-    "start" : 1713876750220,
-    "stop" : 1713876754030,
-    "duration" : 3810
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3b59bf35700a0ac7",
-  "name" : "Check TextBox",
-  "time" : {
-    "start" : 1713876707195,
-    "stop" : 1713876716458,
-    "duration" : 9263
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4508f69e2521c185",
-  "name" : "Checking the field form",
-  "time" : {
-    "start" : 1713876851970,
-    "stop" : 1713876863657,
-    "duration" : 11687
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "555c689be06500e0",
-  "name" : "уведомление",
-  "time" : {
-    "start" : 1713876680080,
-    "stop" : 1713876690321,
-    "duration" : 10241
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b27230a96a549c75",
-  "name" : "Check RadioButton",
-  "time" : {
-    "start" : 1713876733092,
-    "stop" : 1713876741642,
-    "duration" : 8550
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "28b756068eec0245",
-  "name" : "проверка изменения размеров окон",
-  "time" : {
-    "start" : 1713876883338,
-    "stop" : 1713876897246,
-    "duration" : 13908
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4138379046b7524c",
-  "name" : "проверка появления кнопки",
-  "time" : {
-    "start" : 1713876840419,
-    "stop" : 1713876851153,
-    "duration" : 10734
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bce5e7cc10690bb7",
-  "name" : "проверка недоступоной 5 секунд кнопки",
-  "time" : {
-    "start" : 1713876815985,
-    "stop" : 1713876833376,
-    "duration" : 17391
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "df2a3b08af4ef815",
-  "name" : "проверка подсказок",
-  "time" : {
-    "start" : 1713877008658,
-    "stop" : 1713877013741,
-    "duration" : 5083
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b7cf0b4921adb029",
-  "name" : "получение заголовков модальных диалогов",
-  "time" : {
-    "start" : 1713876703397,
-    "stop" : 1713876706373,
-    "duration" : 2976
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a08ad04484520d7",
-  "name" : "проверка разных видов кликов",
-  "time" : {
-    "start" : 1713876774759,
-    "stop" : 1713876781784,
-    "duration" : 7025
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "43585a10b137cedb",
-  "name" : "Checking the opening of a new tab",
-  "time" : {
-    "start" : 1713876909160,
-    "stop" : 1713876911637,
-    "duration" : 2477
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4723f3c6dec67ca6",
-  "name" : "Check CheckBox",
-  "time" : {
-    "start" : 1713876717272,
-    "stop" : 1713876732227,
-    "duration" : 14955
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "71b62fec45a4fd6b",
-  "name" : "видимость алерта",
-  "time" : {
-    "start" : 1713876649486,
-    "stop" : 1713876660311,
-    "duration" : 10825
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "770d3e074f483a1a",
-  "name" : "проверка удаления персоны",
-  "time" : {
-    "start" : 1713876754846,
-    "stop" : 1713876763179,
-    "duration" : 8333
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d564c176aa042abc",
-  "name" : "открываем новую вкладку",
-  "time" : {
-    "start" : 1713876633698,
-    "stop" : 1713876635910,
-    "duration" : 2212
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "762aaf3b49c98e2f",
-  "name" : "проверка работы слайдера",
-  "time" : {
-    "start" : 1713876962100,
-    "stop" : 1713876964741,
-    "duration" : 2641
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1dc29c6bfed9c7b2",
-  "name" : "проверка пунктов меню",
-  "time" : {
-    "start" : 1713877014566,
-    "stop" : 1713877025327,
-    "duration" : 10761
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e30dea773fbb7170",
-  "name" : "проверка удаления цвета",
-  "time" : {
-    "start" : 1713876918685,
-    "stop" : 1713876924090,
-    "duration" : 5405
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "8c174177140caf3e",
+  "uid" : "6153606adf50993d",
   "name" : "проверка простой ссыли",
   "time" : {
-    "start" : 1713876782616,
-    "stop" : 1713876785899,
-    "duration" : 3283
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e31eb2b9e934e61",
-  "name" : "проверка автозаполнения ",
-  "time" : {
-    "start" : 1713876912460,
-    "stop" : 1713876917867,
-    "duration" : 5407
+    "start" : 1714631746275,
+    "stop" : 1714631746275,
+    "duration" : 0
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "15f6b631a72e70f5",
-  "name" : "проверка выгрузки файла",
-  "time" : {
-    "start" : 1713876810430,
-    "stop" : 1713876812411,
-    "duration" : 1981
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "4237b86eb11a5441",
-  "name" : "проверка перетаскиваемых объектов",
-  "time" : {
-    "start" : 1713876898074,
-    "stop" : 1713876908336,
-    "duration" : 10262
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "acb20ec4d20f7864",
-  "name" : "уведомление с согласием",
-  "time" : {
-    "start" : 1713876677650,
-    "stop" : 1713876679269,
-    "duration" : 1619
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e1cd8283e5f2dd9",
-  "name" : "вложенные рамки",
-  "time" : {
-    "start" : 1713876694195,
-    "stop" : 1713876702579,
-    "duration" : 8384
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f2d55703f3e41b5",
-  "name" : "открытие нового окна",
-  "time" : {
-    "start" : 1713876636728,
-    "stop" : 1713876648669,
-    "duration" : 11941
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "81d146ce19a38ef7",
-  "name" : "проверка кнопки возврата прогресса",
-  "time" : {
-    "start" : 1713876978305,
-    "stop" : 1713876990503,
-    "duration" : 12198
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fb26f902daaa76bd",
-  "name" : "проверка индикатора прогресса",
-  "time" : {
-    "start" : 1713876965560,
-    "stop" : 1713876977483,
-    "duration" : 11923
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c8132f5d40202e4f",
-  "name" : "проверка сломанной ссыли",
-  "time" : {
-    "start" : 1713876786719,
-    "stop" : 1713876796432,
-    "duration" : 9713
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cb72fa68fb2073da",
-  "name" : "проверка добавления персоны",
-  "time" : {
-    "start" : 1713876742469,
-    "stop" : 1713876745431,
-    "duration" : 2962
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9faa86474501cccc",
-  "name" : "проверка изменения цвета кнопки",
-  "time" : {
-    "start" : 1713876834194,
-    "stop" : 1713876839599,
-    "duration" : 5405
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "97d56eb48af44d14",
+  "uid" : "642c621ba4e84bfb",
   "name" : "проверка изменения даты",
   "time" : {
-    "start" : 1713876958607,
-    "stop" : 1713876961280,
-    "duration" : 2673
+    "start" : 1714631746598,
+    "stop" : 1714631746598,
+    "duration" : 0
   },
-  "status" : "failed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "cbcab1bade357b4b",
+  "uid" : "d08d19dff3ddb028",
+  "name" : "Check CheckBox",
+  "time" : {
+    "start" : 1714631746137,
+    "stop" : 1714631746137,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19838b9e4b87c93b",
+  "name" : "проверка загрузки файла",
+  "time" : {
+    "start" : 1714631746342,
+    "stop" : 1714631746342,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8fefb839506f30b7",
+  "name" : "проверка поля ввода одного цвета",
+  "time" : {
+    "start" : 1714631746580,
+    "stop" : 1714631746580,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1cc980348a3ca83e",
+  "name" : "проверка пунктов меню",
+  "time" : {
+    "start" : 1714631746700,
+    "stop" : 1714631746700,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a9a7b993af6ae60b",
+  "name" : "уведомление с согласием",
+  "time" : {
+    "start" : 1714631746030,
+    "stop" : 1714631746030,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3dbf371e331751c8",
+  "name" : "проверка поиска персоны",
+  "time" : {
+    "start" : 1714631746189,
+    "stop" : 1714631746189,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1bbf429c203c2e7",
+  "name" : "проверка недоступоной 5 секунд кнопки",
+  "time" : {
+    "start" : 1714631746360,
+    "stop" : 1714631746360,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "801f0e3e78bc9677",
+  "name" : "появление алерта через 5 секунд",
+  "time" : {
+    "start" : 1714631746013,
+    "stop" : 1714631746013,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4b9f8c85941f10a3",
+  "name" : "проверка вкладок",
+  "time" : {
+    "start" : 1714631746667,
+    "stop" : 1714631746667,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8584554dcca783c",
+  "name" : "Check TextBox",
+  "time" : {
+    "start" : 1714631746119,
+    "stop" : 1714631746119,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "12b9259312697e00",
+  "name" : "проверка кнопки возврата прогресса",
+  "time" : {
+    "start" : 1714631746650,
+    "stop" : 1714631746650,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "210b1cc283ec925a",
+  "name" : "вложенные рамки",
+  "time" : {
+    "start" : 1714631746082,
+    "stop" : 1714631746082,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4dd89a917b144a79",
+  "name" : "проверка обновления данных персоны",
+  "time" : {
+    "start" : 1714631746206,
+    "stop" : 1714631746206,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "78ffe9bfd35e2cfa",
+  "name" : "видимость алерта",
+  "time" : {
+    "start" : 1714631745995,
+    "stop" : 1714631745995,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ac25b358330c3736",
+  "name" : "проверка индикатора прогресса",
+  "time" : {
+    "start" : 1714631746632,
+    "stop" : 1714631746632,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f39d4a405216ba41",
+  "name" : "проверка появления кнопки",
+  "time" : {
+    "start" : 1714631746395,
+    "stop" : 1714631746395,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cdecd59915bde26b",
+  "name" : "Checking the opening of a new tab",
+  "time" : {
+    "start" : 1714631746499,
+    "stop" : 1714631746499,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8ff1b1611cc9d66a",
+  "name" : "проверка добавления персоны",
+  "time" : {
+    "start" : 1714631746171,
+    "stop" : 1714631746171,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b6431c460dab8206",
+  "name" : "проверка перемешивания объектов",
+  "time" : {
+    "start" : 1714631746429,
+    "stop" : 1714631746429,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "65e3595286501c4d",
+  "name" : "проверка выгрузки файла",
+  "time" : {
+    "start" : 1714631746325,
+    "stop" : 1714631746325,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "60784870fd51f7fc",
   "name" : "проверка динамической ссыли",
   "time" : {
-    "start" : 1713876797250,
-    "stop" : 1713876809605,
-    "duration" : 12355
+    "start" : 1714631746308,
+    "stop" : 1714631746308,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4eff238670f2fb4d",
+  "name" : "проверка выбора объекта из списка и таблицы",
+  "time" : {
+    "start" : 1714631746447,
+    "stop" : 1714631746447,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "57289446c20a860c",
+  "name" : "проверка удаления цвета",
+  "time" : {
+    "start" : 1714631746533,
+    "stop" : 1714631746533,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9a0b7eccdd5aaf12",
+  "name" : "проверка перетаскиваемых объектов",
+  "time" : {
+    "start" : 1714631746481,
+    "stop" : 1714631746481,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f8c5b0c1acb27687",
+  "name" : "открываем новую вкладку",
+  "time" : {
+    "start" : 1714631745902,
+    "stop" : 1714631745902,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cb48cbe9a842dd31",
+  "name" : "проверка изменения размеров окон",
+  "time" : {
+    "start" : 1714631746464,
+    "stop" : 1714631746464,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "45acaa3ae5461494",
+  "name" : "проверка сломанной ссыли",
+  "time" : {
+    "start" : 1714631746292,
+    "stop" : 1714631746292,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d337969a234cbe1d",
+  "name" : "уведомление",
+  "time" : {
+    "start" : 1714631746047,
+    "stop" : 1714631746047,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "44b6b9faceeda504",
+  "name" : "проверка изменения количества строк на странице",
+  "time" : {
+    "start" : 1714631746241,
+    "stop" : 1714631746241,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f54a12d65da0f74e",
+  "name" : "Checking the field form",
+  "time" : {
+    "start" : 1714631746412,
+    "stop" : 1714631746412,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17ad957289bdce51",
+  "name" : "получение заголовков модальных диалогов",
+  "time" : {
+    "start" : 1714631746099,
+    "stop" : 1714631746099,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1d5b41114a3b3a6",
+  "name" : "проверка удаления персоны",
+  "time" : {
+    "start" : 1714631746224,
+    "stop" : 1714631746224,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9f907fa5991eb8c8",
+  "name" : "открытие нового окна",
+  "time" : {
+    "start" : 1714631745978,
+    "stop" : 1714631745978,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7219a307fa2b0bae",
+  "name" : "проверка разных видов кликов",
+  "time" : {
+    "start" : 1714631746258,
+    "stop" : 1714631746258,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5ed3beec054e2e3d",
+  "name" : "проверка работы слайдера",
+  "time" : {
+    "start" : 1714631746615,
+    "stop" : 1714631746615,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17628c87ee9c05cd",
+  "name" : "проверка подсказок",
+  "time" : {
+    "start" : 1714631746684,
+    "stop" : 1714631746684,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8a3ee5acfd7b694a",
+  "name" : "Check RadioButton",
+  "time" : {
+    "start" : 1714631746154,
+    "stop" : 1714631746154,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8c141b9a7ce82980",
+  "name" : "проверка поля ввода нескольких цветов",
+  "time" : {
+    "start" : 1714631746550,
+    "stop" : 1714631746550,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4bd90795a17f9999",
+  "name" : "рамки",
+  "time" : {
+    "start" : 1714631746065,
+    "stop" : 1714631746065,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "853fc4592bc39f63",
+  "name" : "проверка автозаполнения ",
+  "time" : {
+    "start" : 1714631746516,
+    "stop" : 1714631746516,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "93eecbb629d414f9",
+  "name" : "проверка изменения цвета кнопки",
+  "time" : {
+    "start" : 1714631746377,
+    "stop" : 1714631746377,
+    "duration" : 0
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]
