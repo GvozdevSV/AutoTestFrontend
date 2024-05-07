@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo "-=- preparing project environment -=-"
                 // Python dependencies
-                sh "pip install -r requirements.txt"
+                sh 'pip install -r requirements.txt'
             }
         }
     }
