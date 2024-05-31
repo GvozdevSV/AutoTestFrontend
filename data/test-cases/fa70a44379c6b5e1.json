@@ -1,0 +1,340 @@
+{
+  "uid" : "fa70a44379c6b5e1",
+  "name" : "Checking the opening of a new tab",
+  "fullName" : "tests.widgets_test.TestAccordian#test_accordion",
+  "historyId" : "58a731f4165dccb19aaebf25b952e9e6",
+  "time" : {
+    "start" : 1717142253900,
+    "stop" : 1717142262739,
+    "duration" : 8839
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Incorrect title or missing text\nassert ('Why do we use it?' == 'Why do we use it?'\n    Why do we use it? and 0 > 0)",
+  "statusTrace" : "self = <widgets_test.TestWidgets.TestAccordian object at 0x7f3f54781540>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5d3aea927b8e416d38e73d131e3f56a3\")>\n\n    @allure.title('Checking the opening of a new tab')\n    def test_accordion(self, driver):\n        accordian_page = AccordianPage(driver, 'https://demoqa.com/accordian')\n        accordian_page.open()\n        first_title, first_content = accordian_page.check_accordian('first')\n        second_title, second_content = accordian_page.check_accordian('second')\n        third_title, third_content = accordian_page.check_accordian('third')\n        assert first_title == 'What is Lorem Ipsum?' and first_content > 0, 'Incorrect title or missing text'\n        assert second_title == 'Where does it come from?' and second_content > 0, 'Incorrect title or missing text'\n>       assert third_title == 'Why do we use it?' and third_content > 0, 'Incorrect title or missing text'\nE       AssertionError: Incorrect title or missing text\nE       assert ('Why do we use it?' == 'Why do we use it?'\nE           Why do we use it? and 0 > 0)\n\ntests/widgets_test.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1717142253148,
+      "stop" : 1717142253899,
+      "duration" : 751
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1717142068781,
+      "stop" : 1717142068801,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Incorrect title or missing text\nassert ('Why do we use it?' == 'Why do we use it?'\n    Why do we use it? and 0 > 0)",
+    "statusTrace" : "self = <widgets_test.TestWidgets.TestAccordian object at 0x7f3f54781540>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5d3aea927b8e416d38e73d131e3f56a3\")>\n\n    @allure.title('Checking the opening of a new tab')\n    def test_accordion(self, driver):\n        accordian_page = AccordianPage(driver, 'https://demoqa.com/accordian')\n        accordian_page.open()\n        first_title, first_content = accordian_page.check_accordian('first')\n        second_title, second_content = accordian_page.check_accordian('second')\n        third_title, third_content = accordian_page.check_accordian('third')\n        assert first_title == 'What is Lorem Ipsum?' and first_content > 0, 'Incorrect title or missing text'\n        assert second_title == 'Where does it come from?' and second_content > 0, 'Incorrect title or missing text'\n>       assert third_title == 'Why do we use it?' and third_content > 0, 'Incorrect title or missing text'\nE       AssertionError: Incorrect title or missing text\nE       assert ('Why do we use it?' == 'Why do we use it?'\nE           Why do we use it? and 0 > 0)\n\ntests/widgets_test.py:20: AssertionError",
+    "steps" : [ {
+      "name" : "открыть",
+      "time" : {
+        "start" : 1717142253900,
+        "stop" : 1717142256351,
+        "duration" : 2451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "проверка аккордиона",
+      "time" : {
+        "start" : 1717142256351,
+        "stop" : 1717142257274,
+        "duration" : 923
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1717142256351,
+          "stop" : 1717142256379,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"section1Heading\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1717142257106,
+          "stop" : 1717142257148,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"section1Content\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accordian_num",
+        "value" : "'first'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "проверка аккордиона",
+      "time" : {
+        "start" : 1717142257274,
+        "stop" : 1717142257418,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1717142257274,
+          "stop" : 1717142257309,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"section2Heading\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1717142257368,
+          "stop" : 1717142257396,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"section2Content\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accordian_num",
+        "value" : "'second'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "проверка аккордиона",
+      "time" : {
+        "start" : 1717142257418,
+        "stop" : 1717142262739,
+        "duration" : 5321
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1717142257418,
+          "stop" : 1717142257443,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"section3Heading\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1717142257485,
+          "stop" : 1717142262657,
+          "duration" : 5172
+        },
+        "status" : "broken",
+        "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+        "statusTrace" : "  File \"/usr/local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/usr/workspace/pages/base_page.py\", line 17, in element_is_visible\n    return wait(self.driver, timeout).until(EC.visibility_of_element_located(locator))\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/support/wait.py\", line 95, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"section3Content\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1717142262694,
+          "stop" : 1717142262721,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"section3Content\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accordian_num",
+        "value" : "'third'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1717142262744,
+      "stop" : 1717142262808,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Widgets"
+  }, {
+    "name" : "feature",
+    "value" : "Accordian"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWidgets"
+  }, {
+    "name" : "host",
+    "value" : "178642fccf3a"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.widgets_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fa70a44379c6b5e1.json",
+  "parameterValues" : [ ]
+}
