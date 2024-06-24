@@ -6,13 +6,13 @@
       "name" : "AttributeError: 'list' object has no attribute 'text'",
       "children" : [ {
         "name" : "Check CheckBox",
-        "uid" : "2f4ca4b930867c93",
+        "uid" : "b0267063ebfb8db6",
         "parentUid" : "69974bb8545686574e49c9b5d39e6356",
         "status" : "broken",
         "time" : {
-          "start" : 1717142116624,
-          "stop" : 1717142121494,
-          "duration" : 4870
+          "start" : 1719209470617,
+          "stop" : 1719209483775,
+          "duration" : 13158
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,26 +23,26 @@
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "проверка удаления персоны",
-        "uid" : "57f1dc732e2c18af",
+        "uid" : "8e15d2cf0d5334a7",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1717142141920,
-          "stop" : 1717142151542,
-          "duration" : 9622
+          "start" : 1719209532485,
+          "stop" : 1719209551769,
+          "duration" : 19284
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Checking the field form",
-        "uid" : "45de648b00f7939",
+        "name" : "проверка перетаскиваемых объектов",
+        "uid" : "360a868f6f0ac02c",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1717142218765,
-          "stop" : 1717142224336,
-          "duration" : 5571
+          "start" : 1719209742504,
+          "stop" : 1719209764064,
+          "duration" : 21560
         },
         "flaky" : false,
         "newFailed" : false,
@@ -53,13 +53,13 @@
       "name" : "ValueError: could not convert string to float: 'option[value=\"{x}\"]'",
       "children" : [ {
         "name" : "проверка изменения количества строк на странице",
-        "uid" : "268ee013e407330b",
+        "uid" : "78804a718ae722cb",
         "parentUid" : "ec37dfa791b5b6301b643bfb2a9ff20b",
         "status" : "broken",
         "time" : {
-          "start" : 1717142152378,
-          "stop" : 1717142156189,
-          "duration" : 3811
+          "start" : 1719209552615,
+          "stop" : 1719209564492,
+          "duration" : 11877
         },
         "flaky" : false,
         "newFailed" : false,
@@ -67,33 +67,50 @@
       } ],
       "uid" : "ec37dfa791b5b6301b643bfb2a9ff20b"
     }, {
-      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: path is not absolute: C:\\Users\\ПК\\PycharmProjects\\AvtoTestFrontend\\testfile23.txt\n  (Session info: chrome-headless-shell=124.0.6367.78)",
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: path is not absolute: C:\\Users\\ПК\\PycharmProjects\\AvtoTestFrontend\\testfile922.txt\n  (Session info: chrome-headless-shell=124.0.6367.78)",
       "children" : [ {
         "name" : "проверка выгрузки файла",
-        "uid" : "7e88f51ac2d94869",
-        "parentUid" : "71463ef40135851c856e5c3c1d1d4ea5",
+        "uid" : "3a9769e48676ef14",
+        "parentUid" : "f81ca002060026dd9558d6e73f11dfe8",
         "status" : "broken",
         "time" : {
-          "start" : 1717142176726,
-          "stop" : 1717142180164,
-          "duration" : 3438
+          "start" : 1719209624605,
+          "stop" : 1719209637681,
+          "duration" : 13076
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "71463ef40135851c856e5c3c1d1d4ea5"
+      "uid" : "f81ca002060026dd9558d6e73f11dfe8"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: path is not absolute: C:\\Users\\ПК\\PycharmProjects\\AvtoTestFrontend\\testfile382.txt\n  (Session info: chrome-headless-shell=124.0.6367.78)",
+      "children" : [ {
+        "name" : "Checking the field form",
+        "uid" : "e7c54db8e494da00",
+        "parentUid" : "1518ef8d2d4fabdcc385bc9f03a1e1b0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719209693717,
+          "stop" : 1719209706709,
+          "duration" : 12992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1518ef8d2d4fabdcc385bc9f03a1e1b0"
     }, {
       "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a id=\"demo-tab-more\" href=\"#\" role=\"tab\" data-rb-event-key=\"more\" aria-controls=\"demo-tabpane-more\" tabindex=\"-1\" aria-selected=\"false\" class=\"nav-item nav-link disabled\" aria-disabled=\"true\">...</a> is not clickable at point (752, 584). Other element would receive the click: <nav class=\"nav nav-tabs\" role=\"tablist\">...</nav>\n  (Session info: chrome-headless-shell=124.0.6367.78)",
       "children" : [ {
         "name" : "проверка вкладок",
-        "uid" : "e7a3396f5884c1be",
+        "uid" : "d1e7537df3c6a6f2",
         "parentUid" : "4612b016d974045936666a0b30d5a029",
         "status" : "broken",
         "time" : {
-          "start" : 1717142348595,
-          "stop" : 1717142353950,
-          "duration" : 5355
+          "start" : 1719209912579,
+          "stop" : 1719209927015,
+          "duration" : 14436
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,13 +125,13 @@
       "name" : "AssertionError: 'not select no'\nassert 'Impressive' == 'no'\n  - no\n  + Impressive",
       "children" : [ {
         "name" : "Check RadioButton",
-        "uid" : "daa29261546d5803",
+        "uid" : "de38f0dafd933e4",
         "parentUid" : "1c9fe7c1211453de9e2a4eb7cabfb0ae",
         "status" : "failed",
         "time" : {
-          "start" : 1717142122388,
-          "stop" : 1717142125576,
-          "duration" : 3188
+          "start" : 1719209484658,
+          "stop" : 1719209497037,
+          "duration" : 12379
         },
         "flaky" : false,
         "newFailed" : false,
@@ -122,73 +139,56 @@
       } ],
       "uid" : "1c9fe7c1211453de9e2a4eb7cabfb0ae"
     }, {
-      "name" : "AssertionError: key not found\nassert 'Лаврентий' in ['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance']",
+      "name" : "AssertionError: key not found\nassert '19' in ['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance']",
       "children" : [ {
         "name" : "проверка поиска персоны",
-        "uid" : "28ce6e2e390234cd",
-        "parentUid" : "95cc8cc58f6858831fff9c4cddf88745",
+        "uid" : "bee4a1e4c2a81f01",
+        "parentUid" : "a1cb03aa7177cd919d19b9f8ed703675",
         "status" : "failed",
         "time" : {
-          "start" : 1717142130970,
-          "stop" : 1717142135352,
-          "duration" : 4382
+          "start" : 1719209512955,
+          "stop" : 1719209517100,
+          "duration" : 4145
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "95cc8cc58f6858831fff9c4cddf88745"
+      "uid" : "a1cb03aa7177cd919d19b9f8ed703675"
     }, {
-      "name" : "AssertionError: assert False is True",
+      "name" : "AssertionError: assert 'rgba(220, 53, 69, 1)' != 'rgba(220, 53, 69, 1)'",
       "children" : [ {
-        "name" : "проверка появления кнопки",
-        "uid" : "2db4b8504c20c04c",
-        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "name" : "проверка изменения цвета кнопки",
+        "uid" : "a926bb3763c21d82",
+        "parentUid" : "9c2ccb8c130bf91a47d71b942e1099c3",
         "status" : "failed",
         "time" : {
-          "start" : 1717142212387,
-          "stop" : 1717142217952,
-          "duration" : 5565
+          "start" : 1719209660999,
+          "stop" : 1719209680076,
+          "duration" : 19077
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b753cc2371eaf4f8dcc68f5839b988a8"
+      "uid" : "9c2ccb8c130bf91a47d71b942e1099c3"
     }, {
-      "name" : "AssertionError: Incorrect title or missing text\nassert ('Why do we use it?' == 'Why do we use it?'\n    Why do we use it? and 0 > 0)",
+      "name" : "AssertionError: Incorrect title or missing text\nassert ('Where does it come from?' == 'Where does it come from?'\n    Where does it come from? and 0 > 0)",
       "children" : [ {
         "name" : "Checking the opening of a new tab",
-        "uid" : "fa70a44379c6b5e1",
-        "parentUid" : "d215ae773007ff0b88a851c4ebb6df66",
+        "uid" : "99110a85a257bcad",
+        "parentUid" : "2952e75a124185dbdfff699f4cee4553",
         "status" : "failed",
         "time" : {
-          "start" : 1717142253900,
-          "stop" : 1717142262739,
-          "duration" : 8839
+          "start" : 1719209764917,
+          "stop" : 1719209777308,
+          "duration" : 12391
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d215ae773007ff0b88a851c4ebb6df66"
-    }, {
-      "name" : "AssertionError: Date not change\nassert '05/31/2024' != '05/31/2024'",
-      "children" : [ {
-        "name" : "проверка изменения даты",
-        "uid" : "8d4bc05cedf6f3dc",
-        "parentUid" : "449a3e9aa08f45e9770da2b5393b7ee5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1717142316584,
-          "stop" : 1717142320217,
-          "duration" : 3633
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "449a3e9aa08f45e9770da2b5393b7ee5"
+      "uid" : "2952e75a124185dbdfff699f4cee4553"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

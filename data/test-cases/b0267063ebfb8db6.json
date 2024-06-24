@@ -1,0 +1,625 @@
+{
+  "uid" : "b0267063ebfb8db6",
+  "name" : "Check CheckBox",
+  "fullName" : "tests.elements_test.TestCheckBox#test_check_box",
+  "historyId" : "c6a0a29cb444e0eae4cb38ee0f4c4b69",
+  "time" : {
+    "start" : 1719209470617,
+    "stop" : 1719209483775,
+    "duration" : 13158
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'list' object has no attribute 'text'",
+  "statusTrace" : "self = <elements_test.TestElements.TestCheckBox object at 0x7f956f9b9060>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"446c316e47f4008ea15efd1891bc0ae1\")>\n\n    @allure.title('Check CheckBox')\n    def test_check_box(self, driver):\n        check_box_page = CheckBoxPage(driver, 'https://demoqa.com/checkbox')\n        check_box_page.open()\n        check_box_page.open_full_list()\n        check_box_page.click_random_checkbox()\n>       input_checkbox = check_box_page.get_checked_checkboxes()\n\ntests/elements_test.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.elements_page.CheckBoxPage object at 0x7f956f969420>\n\n    @allure.step(\"получить отмеченные чекбоксы\")\n    def get_checked_checkboxes(self):\n        checked_list = self.elements_are_present(self.locators.CHECKED_ITEMS)\n        data = []\n        for box in checked_list:\n            title_item = box.find_elements(By.XPATH, \"//ancestor::span[@class='rct-title']\")\n>           data.append(title_item.text)\nE           AttributeError: 'list' object has no attribute 'text'\n\npages/elements_page.py:67: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1719209339166,
+      "stop" : 1719209339188,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1719209469854,
+      "stop" : 1719209470617,
+      "duration" : 763
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'list' object has no attribute 'text'",
+    "statusTrace" : "self = <elements_test.TestElements.TestCheckBox object at 0x7f956f9b9060>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"446c316e47f4008ea15efd1891bc0ae1\")>\n\n    @allure.title('Check CheckBox')\n    def test_check_box(self, driver):\n        check_box_page = CheckBoxPage(driver, 'https://demoqa.com/checkbox')\n        check_box_page.open()\n        check_box_page.open_full_list()\n        check_box_page.click_random_checkbox()\n>       input_checkbox = check_box_page.get_checked_checkboxes()\n\ntests/elements_test.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.elements_page.CheckBoxPage object at 0x7f956f969420>\n\n    @allure.step(\"получить отмеченные чекбоксы\")\n    def get_checked_checkboxes(self):\n        checked_list = self.elements_are_present(self.locators.CHECKED_ITEMS)\n        data = []\n        for box in checked_list:\n            title_item = box.find_elements(By.XPATH, \"//ancestor::span[@class='rct-title']\")\n>           data.append(title_item.text)\nE           AttributeError: 'list' object has no attribute 'text'\n\npages/elements_page.py:67: AttributeError",
+    "steps" : [ {
+      "name" : "открыть",
+      "time" : {
+        "start" : 1719209470618,
+        "stop" : 1719209482314,
+        "duration" : 11696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "открыть полный список",
+      "time" : {
+        "start" : 1719209482314,
+        "stop" : 1719209482427,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1719209482314,
+          "stop" : 1719209482341,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', \"button[title='Expand all']\")"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "отметить случайные чекбоксы",
+      "time" : {
+        "start" : 1719209482427,
+        "stop" : 1719209483747,
+        "duration" : 1320
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элементы видимы",
+        "time" : {
+          "start" : 1719209482427,
+          "stop" : 1719209482662,
+          "duration" : 235
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', \"span[class='rct-title']\")"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209482662,
+          "stop" : 1719209482673,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.58\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209482727,
+          "stop" : 1719209482733,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.60\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209482778,
+          "stop" : 1719209482786,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.64\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209482827,
+          "stop" : 1719209482833,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.51\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209482879,
+          "stop" : 1719209482885,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.61\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209482930,
+          "stop" : 1719209482935,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.64\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209482973,
+          "stop" : 1719209482978,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.51\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483017,
+          "stop" : 1719209483025,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.55\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483071,
+          "stop" : 1719209483081,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.64\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483128,
+          "stop" : 1719209483134,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.59\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483180,
+          "stop" : 1719209483187,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.57\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483244,
+          "stop" : 1719209483251,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.65\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483296,
+          "stop" : 1719209483302,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.52\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483345,
+          "stop" : 1719209483351,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.57\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483395,
+          "stop" : 1719209483401,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.60\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483443,
+          "stop" : 1719209483468,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.57\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483516,
+          "stop" : 1719209483524,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.51\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483562,
+          "stop" : 1719209483568,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.60\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483609,
+          "stop" : 1719209483614,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.58\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483651,
+          "stop" : 1719209483658,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.56\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209483701,
+          "stop" : 1719209483708,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"446c316e47f4008ea15efd1891bc0ae1\", element=\"f.ED3EC78FF83E452FF130A90CDC35452D.d.DC699524F7EE98C6ECF28C6CFE8ECAE9.e.64\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 22,
+      "hasContent" : true
+    }, {
+      "name" : "получить отмеченные чекбоксы",
+      "time" : {
+        "start" : 1719209483747,
+        "stop" : 1719209483774,
+        "duration" : 27
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'list' object has no attribute 'text'\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/usr/workspace/pages/elements_page.py\", line 67, in get_checked_checkboxes\n    data.append(title_item.text)\n",
+      "steps" : [ {
+        "name" : "элементы представлены",
+        "time" : {
+          "start" : 1719209483747,
+          "stop" : 1719209483761,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', \"svg[class='rct-icon rct-icon-check']\")"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 28,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1719209483820,
+      "stop" : 1719209483889,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Elements"
+  }, {
+    "name" : "feature",
+    "value" : "CheckBox"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestElements"
+  }, {
+    "name" : "host",
+    "value" : "e8cc21e3be47"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.elements_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b0267063ebfb8db6.json",
+  "parameterValues" : [ ]
+}

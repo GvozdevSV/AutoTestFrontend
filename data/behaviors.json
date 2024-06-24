@@ -4,26 +4,26 @@
     "name" : "Browser Windows",
     "children" : [ {
       "name" : "открываем новую вкладку",
-      "uid" : "7cf3e2aa825eaf57",
+      "uid" : "3157b4a84c3b0780",
       "parentUid" : "3824cd7b3d0cb01f345343bfd64ed556",
       "status" : "passed",
       "time" : {
-        "start" : 1717142069564,
-        "stop" : 1717142073450,
-        "duration" : 3886
+        "start" : 1719209339964,
+        "stop" : 1719209343355,
+        "duration" : 3391
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "открытие нового окна",
-      "uid" : "8972ec41a8a0d2d4",
+      "uid" : "581fc0bba66e7221",
       "parentUid" : "3824cd7b3d0cb01f345343bfd64ed556",
       "status" : "passed",
       "time" : {
-        "start" : 1717142074266,
-        "stop" : 1717142077311,
-        "duration" : 3045
+        "start" : 1719209344189,
+        "stop" : 1719209356305,
+        "duration" : 12116
       },
       "flaky" : false,
       "newFailed" : false,
@@ -34,52 +34,52 @@
     "name" : "Alerts Windows",
     "children" : [ {
       "name" : "видимость алерта",
-      "uid" : "baedf4607a5165e3",
+      "uid" : "6b026badf1e5497c",
       "parentUid" : "cc16765668845f84aae854548d267e70",
       "status" : "passed",
       "time" : {
-        "start" : 1717142078130,
-        "stop" : 1717142080957,
-        "duration" : 2827
+        "start" : 1719209357135,
+        "stop" : 1719209369228,
+        "duration" : 12093
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "появление алерта через 5 секунд",
-      "uid" : "452b2e195f12f33d",
+      "uid" : "4f261799c511ef3",
       "parentUid" : "cc16765668845f84aae854548d267e70",
       "status" : "passed",
       "time" : {
-        "start" : 1717142081771,
-        "stop" : 1717142090272,
-        "duration" : 8501
+        "start" : 1719209370066,
+        "stop" : 1719209387990,
+        "duration" : 17924
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "уведомление с согласием",
-      "uid" : "604ef42af5c721d1",
+      "uid" : "d6e48e05160596e6",
       "parentUid" : "cc16765668845f84aae854548d267e70",
       "status" : "passed",
       "time" : {
-        "start" : 1717142091089,
-        "stop" : 1717142094734,
-        "duration" : 3645
+        "start" : 1719209388818,
+        "stop" : 1719209401957,
+        "duration" : 13139
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "уведомление",
-      "uid" : "3ab78b5440a891de",
+      "uid" : "e40d98f3d715bf76",
       "parentUid" : "cc16765668845f84aae854548d267e70",
       "status" : "passed",
       "time" : {
-        "start" : 1717142095563,
-        "stop" : 1717142099325,
-        "duration" : 3762
+        "start" : 1719209402806,
+        "stop" : 1719209414823,
+        "duration" : 12017
       },
       "flaky" : false,
       "newFailed" : false,
@@ -90,13 +90,13 @@
     "name" : "Frames",
     "children" : [ {
       "name" : "рамки",
-      "uid" : "a2d7be64bf0984e9",
+      "uid" : "eb9b361d148a77aa",
       "parentUid" : "e20f200f9591d2bcedcdd70e5310e8c7",
       "status" : "passed",
       "time" : {
-        "start" : 1717142100142,
-        "stop" : 1717142103023,
-        "duration" : 2881
+        "start" : 1719209415660,
+        "stop" : 1719209427860,
+        "duration" : 12200
       },
       "flaky" : false,
       "newFailed" : false,
@@ -107,13 +107,13 @@
     "name" : "Nested Frames",
     "children" : [ {
       "name" : "вложенные рамки",
-      "uid" : "15dcabd6c0aa16fc",
+      "uid" : "661e732b7a7057e5",
       "parentUid" : "6a8993d014e57fcc765db95323106f4a",
       "status" : "passed",
       "time" : {
-        "start" : 1717142103839,
-        "stop" : 1717142106389,
-        "duration" : 2550
+        "start" : 1719209428691,
+        "stop" : 1719209441900,
+        "duration" : 13209
       },
       "flaky" : false,
       "newFailed" : false,
@@ -124,13 +124,13 @@
     "name" : "Modal Dialogs",
     "children" : [ {
       "name" : "получение заголовков модальных диалогов",
-      "uid" : "32548e5b52ec3c61",
+      "uid" : "9f69e9b87d74b8d8",
       "parentUid" : "053a85df512e36f3bd53ff1ed9350bab",
       "status" : "passed",
       "time" : {
-        "start" : 1717142107197,
-        "stop" : 1717142111747,
-        "duration" : 4550
+        "start" : 1719209442752,
+        "stop" : 1719209455744,
+        "duration" : 12992
       },
       "flaky" : false,
       "newFailed" : false,
@@ -141,13 +141,13 @@
     "name" : "TextBox",
     "children" : [ {
       "name" : "Check TextBox",
-      "uid" : "6fc12548d593065f",
+      "uid" : "6c31f5183cc67a3e",
       "parentUid" : "e3b5fe41ce8c06acabc77ba0859ae2d6",
       "status" : "passed",
       "time" : {
-        "start" : 1717142112557,
-        "stop" : 1717142115807,
-        "duration" : 3250
+        "start" : 1719209456574,
+        "stop" : 1719209469786,
+        "duration" : 13212
       },
       "flaky" : false,
       "newFailed" : false,
@@ -158,13 +158,13 @@
     "name" : "CheckBox",
     "children" : [ {
       "name" : "Check CheckBox",
-      "uid" : "2f4ca4b930867c93",
+      "uid" : "b0267063ebfb8db6",
       "parentUid" : "909c0419bbda64d9278b4d53770d56ee",
       "status" : "broken",
       "time" : {
-        "start" : 1717142116624,
-        "stop" : 1717142121494,
-        "duration" : 4870
+        "start" : 1719209470617,
+        "stop" : 1719209483775,
+        "duration" : 13158
       },
       "flaky" : false,
       "newFailed" : false,
@@ -175,13 +175,13 @@
     "name" : "RadioButton",
     "children" : [ {
       "name" : "Check RadioButton",
-      "uid" : "daa29261546d5803",
+      "uid" : "de38f0dafd933e4",
       "parentUid" : "f0920ae5da3e0eb5c8e93b28c4747e49",
       "status" : "failed",
       "time" : {
-        "start" : 1717142122388,
-        "stop" : 1717142125576,
-        "duration" : 3188
+        "start" : 1719209484658,
+        "stop" : 1719209497037,
+        "duration" : 12379
       },
       "flaky" : false,
       "newFailed" : false,
@@ -192,65 +192,65 @@
     "name" : "WebTables",
     "children" : [ {
       "name" : "проверка добавления персоны",
-      "uid" : "20ced4c39337e479",
+      "uid" : "e8112d616a32ecf6",
       "parentUid" : "ac5ffc96a8faa379844b2c63bbdcd221",
       "status" : "passed",
       "time" : {
-        "start" : 1717142126400,
-        "stop" : 1717142130154,
-        "duration" : 3754
+        "start" : 1719209497869,
+        "stop" : 1719209512124,
+        "duration" : 14255
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка поиска персоны",
-      "uid" : "28ce6e2e390234cd",
+      "uid" : "bee4a1e4c2a81f01",
       "parentUid" : "ac5ffc96a8faa379844b2c63bbdcd221",
       "status" : "failed",
       "time" : {
-        "start" : 1717142130970,
-        "stop" : 1717142135352,
-        "duration" : 4382
+        "start" : 1719209512955,
+        "stop" : 1719209517100,
+        "duration" : 4145
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка обновления данных персоны",
-      "uid" : "19945c8dfac35089",
+      "uid" : "9bd3ebb0e9881f3f",
       "parentUid" : "ac5ffc96a8faa379844b2c63bbdcd221",
       "status" : "passed",
       "time" : {
-        "start" : 1717142136172,
-        "stop" : 1717142141105,
-        "duration" : 4933
+        "start" : 1719209517943,
+        "stop" : 1719209531658,
+        "duration" : 13715
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка удаления персоны",
-      "uid" : "57f1dc732e2c18af",
+      "uid" : "8e15d2cf0d5334a7",
       "parentUid" : "ac5ffc96a8faa379844b2c63bbdcd221",
       "status" : "broken",
       "time" : {
-        "start" : 1717142141920,
-        "stop" : 1717142151542,
-        "duration" : 9622
+        "start" : 1719209532485,
+        "stop" : 1719209551769,
+        "duration" : 19284
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка изменения количества строк на странице",
-      "uid" : "268ee013e407330b",
+      "uid" : "78804a718ae722cb",
       "parentUid" : "ac5ffc96a8faa379844b2c63bbdcd221",
       "status" : "broken",
       "time" : {
-        "start" : 1717142152378,
-        "stop" : 1717142156189,
-        "duration" : 3811
+        "start" : 1719209552615,
+        "stop" : 1719209564492,
+        "duration" : 11877
       },
       "flaky" : false,
       "newFailed" : false,
@@ -261,13 +261,13 @@
     "name" : "Button",
     "children" : [ {
       "name" : "проверка разных видов кликов",
-      "uid" : "5673cf60b1b6a4cf",
+      "uid" : "cc4d8cfea31cea1d",
       "parentUid" : "163f4a2c5a9aab08617545c58f7d648e",
       "status" : "passed",
       "time" : {
-        "start" : 1717142157019,
-        "stop" : 1717142161124,
-        "duration" : 4105
+        "start" : 1719209565343,
+        "stop" : 1719209577807,
+        "duration" : 12464
       },
       "flaky" : false,
       "newFailed" : false,
@@ -278,39 +278,39 @@
     "name" : "Links",
     "children" : [ {
       "name" : "проверка простой ссыли",
-      "uid" : "b335ac5282de7340",
+      "uid" : "d4d274226380ef7a",
       "parentUid" : "4d3a13ed77af8784163e35ca276ceaa8",
       "status" : "passed",
       "time" : {
-        "start" : 1717142161941,
-        "stop" : 1717142166635,
-        "duration" : 4694
+        "start" : 1719209578642,
+        "stop" : 1719209593480,
+        "duration" : 14838
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка сломанной ссыли",
-      "uid" : "52ecfe6dfc2de715",
+      "uid" : "77aeccc1c393e8af",
       "parentUid" : "4d3a13ed77af8784163e35ca276ceaa8",
       "status" : "passed",
       "time" : {
-        "start" : 1717142167447,
-        "stop" : 1717142170341,
-        "duration" : 2894
+        "start" : 1719209594309,
+        "stop" : 1719209608055,
+        "duration" : 13746
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка динамической ссыли",
-      "uid" : "274338684d95a78b",
+      "uid" : "3f3722e7c5e620ee",
       "parentUid" : "4d3a13ed77af8784163e35ca276ceaa8",
       "status" : "passed",
       "time" : {
-        "start" : 1717142171169,
-        "stop" : 1717142175911,
-        "duration" : 4742
+        "start" : 1719209608878,
+        "stop" : 1719209623756,
+        "duration" : 14878
       },
       "flaky" : false,
       "newFailed" : false,
@@ -321,26 +321,26 @@
     "name" : "UploadAndDown",
     "children" : [ {
       "name" : "проверка выгрузки файла",
-      "uid" : "7e88f51ac2d94869",
+      "uid" : "3a9769e48676ef14",
       "parentUid" : "d9f368ab63fdb483c1a5a05c4a66e076",
       "status" : "broken",
       "time" : {
-        "start" : 1717142176726,
-        "stop" : 1717142180164,
-        "duration" : 3438
+        "start" : 1719209624605,
+        "stop" : 1719209637681,
+        "duration" : 13076
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка загрузки файла",
-      "uid" : "d39d17b13344f833",
+      "uid" : "13b5f8267931965c",
       "parentUid" : "d9f368ab63fdb483c1a5a05c4a66e076",
       "status" : "passed",
       "time" : {
-        "start" : 1717142181020,
-        "stop" : 1717142192513,
-        "duration" : 11493
+        "start" : 1719209638577,
+        "stop" : 1719209650575,
+        "duration" : 11998
       },
       "flaky" : false,
       "newFailed" : false,
@@ -351,39 +351,39 @@
     "name" : "DynamicProperties",
     "children" : [ {
       "name" : "проверка недоступоной 5 секунд кнопки",
-      "uid" : "f4916067466e18dd",
+      "uid" : "8685a65d931a9f01",
       "parentUid" : "bb25ac7b209e97e2ebcb82ca6d93f844",
       "status" : "passed",
       "time" : {
-        "start" : 1717142193329,
-        "stop" : 1717142202013,
-        "duration" : 8684
+        "start" : 1719209651408,
+        "stop" : 1719209660171,
+        "duration" : 8763
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка изменения цвета кнопки",
-      "uid" : "c66c9407f73b154a",
+      "uid" : "a926bb3763c21d82",
       "parentUid" : "bb25ac7b209e97e2ebcb82ca6d93f844",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1717142202828,
-        "stop" : 1717142211530,
-        "duration" : 8702
+        "start" : 1719209660999,
+        "stop" : 1719209680076,
+        "duration" : 19077
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка появления кнопки",
-      "uid" : "2db4b8504c20c04c",
+      "uid" : "967466e1fae68802",
       "parentUid" : "bb25ac7b209e97e2ebcb82ca6d93f844",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1717142212387,
-        "stop" : 1717142217952,
-        "duration" : 5565
+        "start" : 1719209680907,
+        "stop" : 1719209692863,
+        "duration" : 11956
       },
       "flaky" : false,
       "newFailed" : false,
@@ -394,13 +394,13 @@
     "name" : "Test form",
     "children" : [ {
       "name" : "Checking the field form",
-      "uid" : "45de648b00f7939",
+      "uid" : "e7c54db8e494da00",
       "parentUid" : "a176d4d413d1cc0411fdf896a20ce1c6",
       "status" : "broken",
       "time" : {
-        "start" : 1717142218765,
-        "stop" : 1717142224336,
-        "duration" : 5571
+        "start" : 1719209693717,
+        "stop" : 1719209706709,
+        "duration" : 12992
       },
       "flaky" : false,
       "newFailed" : false,
@@ -411,13 +411,13 @@
     "name" : "Sortable Page",
     "children" : [ {
       "name" : "проверка перемешивания объектов",
-      "uid" : "a7ffcb881f972311",
+      "uid" : "a0a7aa9755df4383",
       "parentUid" : "275768f24f652b59d025ae969b85b94f",
       "status" : "passed",
       "time" : {
-        "start" : 1717142225162,
-        "stop" : 1717142230191,
-        "duration" : 5029
+        "start" : 1719209707573,
+        "stop" : 1719209721365,
+        "duration" : 13792
       },
       "flaky" : false,
       "newFailed" : false,
@@ -428,13 +428,13 @@
     "name" : "Selectable Page",
     "children" : [ {
       "name" : "проверка выбора объекта из списка и таблицы",
-      "uid" : "ac41445527be6144",
+      "uid" : "c36d5c085881072f",
       "parentUid" : "3034942b15e2e9c0ecd2b9cb77a44332",
       "status" : "passed",
       "time" : {
-        "start" : 1717142231010,
-        "stop" : 1717142234780,
-        "duration" : 3770
+        "start" : 1719209722217,
+        "stop" : 1719209726680,
+        "duration" : 4463
       },
       "flaky" : false,
       "newFailed" : false,
@@ -445,13 +445,13 @@
     "name" : "Resizable Page",
     "children" : [ {
       "name" : "проверка изменения размеров окон",
-      "uid" : "c9c19a589151e297",
+      "uid" : "b4a437cf4aa712c4",
       "parentUid" : "17c6161fa654b67812271f656a194278",
       "status" : "passed",
       "time" : {
-        "start" : 1717142235599,
-        "stop" : 1717142240744,
-        "duration" : 5145
+        "start" : 1719209727529,
+        "stop" : 1719209741677,
+        "duration" : 14148
       },
       "flaky" : false,
       "newFailed" : false,
@@ -462,13 +462,13 @@
     "name" : "Droppable Page",
     "children" : [ {
       "name" : "проверка перетаскиваемых объектов",
-      "uid" : "115aea4e43e1985d",
+      "uid" : "360a868f6f0ac02c",
       "parentUid" : "5b2c821587313bca6247f0d27833991b",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1717142241564,
-        "stop" : 1717142253081,
-        "duration" : 11517
+        "start" : 1719209742504,
+        "stop" : 1719209764064,
+        "duration" : 21560
       },
       "flaky" : false,
       "newFailed" : false,
@@ -479,13 +479,13 @@
     "name" : "Accordian",
     "children" : [ {
       "name" : "Checking the opening of a new tab",
-      "uid" : "fa70a44379c6b5e1",
+      "uid" : "99110a85a257bcad",
       "parentUid" : "17ea57a6e24287d96aaa73af5360f928",
       "status" : "failed",
       "time" : {
-        "start" : 1717142253900,
-        "stop" : 1717142262739,
-        "duration" : 8839
+        "start" : 1719209764917,
+        "stop" : 1719209777308,
+        "duration" : 12391
       },
       "flaky" : false,
       "newFailed" : false,
@@ -496,52 +496,52 @@
     "name" : "Auto Complete",
     "children" : [ {
       "name" : "проверка автозаполнения ",
-      "uid" : "1a13e130fce2d032",
+      "uid" : "ac823bb6db677e3c",
       "parentUid" : "10a9023e69390205d906356985cf0a24",
       "status" : "passed",
       "time" : {
-        "start" : 1717142263560,
-        "stop" : 1717142272578,
-        "duration" : 9018
+        "start" : 1719209778173,
+        "stop" : 1719209794704,
+        "duration" : 16531
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка удаления цвета",
-      "uid" : "b5cc0688171a3c45",
+      "uid" : "4b4f687c4e68553c",
       "parentUid" : "10a9023e69390205d906356985cf0a24",
       "status" : "passed",
       "time" : {
-        "start" : 1717142273396,
-        "stop" : 1717142288668,
-        "duration" : 15272
+        "start" : 1719209795531,
+        "stop" : 1719209813412,
+        "duration" : 17881
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка поля ввода нескольких цветов",
-      "uid" : "cc3bd7120e075040",
+      "uid" : "5a86c4e93993b120",
       "parentUid" : "10a9023e69390205d906356985cf0a24",
       "status" : "passed",
       "time" : {
-        "start" : 1717142289479,
-        "stop" : 1717142303058,
-        "duration" : 13579
+        "start" : 1719209814247,
+        "stop" : 1719209837027,
+        "duration" : 22780
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка поля ввода одного цвета",
-      "uid" : "ed1fb0236f8725df",
+      "uid" : "e9991f1bc97680ea",
       "parentUid" : "10a9023e69390205d906356985cf0a24",
       "status" : "passed",
       "time" : {
-        "start" : 1717142303877,
-        "stop" : 1717142315768,
-        "duration" : 11891
+        "start" : 1719209837860,
+        "stop" : 1719209851038,
+        "duration" : 13178
       },
       "flaky" : false,
       "newFailed" : false,
@@ -552,13 +552,13 @@
     "name" : "Date",
     "children" : [ {
       "name" : "проверка изменения даты",
-      "uid" : "8d4bc05cedf6f3dc",
+      "uid" : "be3be130398281b3",
       "parentUid" : "21416c06e57014a0c5ed1e04cecf37ed",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1717142316584,
-        "stop" : 1717142320217,
-        "duration" : 3633
+        "start" : 1719209851864,
+        "stop" : 1719209865496,
+        "duration" : 13632
       },
       "flaky" : false,
       "newFailed" : false,
@@ -569,13 +569,13 @@
     "name" : "Slider",
     "children" : [ {
       "name" : "проверка работы слайдера",
-      "uid" : "4f04fcc3065c1e9e",
+      "uid" : "689aecc036009f58",
       "parentUid" : "44634e06b6c0933065c6b25d76a89d04",
       "status" : "passed",
       "time" : {
-        "start" : 1717142321036,
-        "stop" : 1717142324494,
-        "duration" : 3458
+        "start" : 1719209866320,
+        "stop" : 1719209869593,
+        "duration" : 3273
       },
       "flaky" : false,
       "newFailed" : false,
@@ -586,26 +586,26 @@
     "name" : "Progress Bar",
     "children" : [ {
       "name" : "проверка индикатора прогресса",
-      "uid" : "bb5e845b8f4c1975",
+      "uid" : "3d242070cd0a8f09",
       "parentUid" : "93dc1235b73e9968f1ccf25370d2db68",
       "status" : "passed",
       "time" : {
-        "start" : 1717142325312,
-        "stop" : 1717142333101,
-        "duration" : 7789
+        "start" : 1719209870429,
+        "stop" : 1719209887321,
+        "duration" : 16892
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "проверка кнопки возврата прогресса",
-      "uid" : "1be51975ea0348a8",
+      "uid" : "7853921b241e1269",
       "parentUid" : "93dc1235b73e9968f1ccf25370d2db68",
       "status" : "passed",
       "time" : {
-        "start" : 1717142333926,
-        "stop" : 1717142347779,
-        "duration" : 13853
+        "start" : 1719209888150,
+        "stop" : 1719209911749,
+        "duration" : 23599
       },
       "flaky" : false,
       "newFailed" : false,
@@ -616,13 +616,13 @@
     "name" : "Tabs ",
     "children" : [ {
       "name" : "проверка вкладок",
-      "uid" : "e7a3396f5884c1be",
+      "uid" : "d1e7537df3c6a6f2",
       "parentUid" : "3906aa3214dabdbc8c6b824238732a19",
       "status" : "broken",
       "time" : {
-        "start" : 1717142348595,
-        "stop" : 1717142353950,
-        "duration" : 5355
+        "start" : 1719209912579,
+        "stop" : 1719209927015,
+        "duration" : 14436
       },
       "flaky" : false,
       "newFailed" : false,
@@ -633,13 +633,13 @@
     "name" : "Tools Tips",
     "children" : [ {
       "name" : "проверка подсказок",
-      "uid" : "cab5d9316c490d7a",
+      "uid" : "25075c27f2e0082e",
       "parentUid" : "7d0a07ce7a93a66e7e03661a14fde360",
       "status" : "passed",
       "time" : {
-        "start" : 1717142354796,
-        "stop" : 1717142361611,
-        "duration" : 6815
+        "start" : 1719209927888,
+        "stop" : 1719209944094,
+        "duration" : 16206
       },
       "flaky" : false,
       "newFailed" : false,
@@ -650,13 +650,13 @@
     "name" : "Menu",
     "children" : [ {
       "name" : "проверка пунктов меню",
-      "uid" : "c04963fed4f96572",
+      "uid" : "7065f1eecdf16eb5",
       "parentUid" : "b8e661260f4273aab7e060794e689c72",
       "status" : "passed",
       "time" : {
-        "start" : 1717142362436,
-        "stop" : 1717142367106,
-        "duration" : 4670
+        "start" : 1719209944921,
+        "stop" : 1719209959971,
+        "duration" : 15050
       },
       "flaky" : false,
       "newFailed" : false,

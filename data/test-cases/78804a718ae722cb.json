@@ -1,0 +1,216 @@
+{
+  "uid" : "78804a718ae722cb",
+  "name" : "проверка изменения количества строк на странице",
+  "fullName" : "tests.elements_test.TestWebTables#test_web_tables_change_count_row",
+  "historyId" : "befb36cef857a91ee7f6c46bf9a5d157",
+  "time" : {
+    "start" : 1719209552615,
+    "stop" : 1719209564492,
+    "duration" : 11877
+  },
+  "status" : "broken",
+  "statusMessage" : "ValueError: could not convert string to float: 'option[value=\"{x}\"]'",
+  "statusTrace" : "self = <elements_test.TestElements.TestWebTables object at 0x7f956f9b84c0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"fa477b588c14fc1a78da6131959f7f5c\")>\n\n    @allure.title(\"проверка изменения количества строк на странице\")\n    def test_web_tables_change_count_row(self, driver):\n        web_tables_page = WebTablesPage(driver, 'https://demoqa.com/webtables')\n        web_tables_page.open()\n>       count = web_tables_page.select_up_to_some_rows()\n\ntests/elements_test.py:97: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/elements_page.py:163: in select_up_to_some_rows\n    self.element_is_visible(By.CSS_SELECTOR, 'option[value=\"{x}\"]').click()\npages/base_page.py:17: in element_is_visible\n    return wait(self.driver, timeout).until(EC.visibility_of_element_located(locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"fa477b588c14fc1a78da6131959f7f5c\")>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"fa477b588c14fc1a78da6131959f7f5c\")>\ntimeout = 'option[value=\"{x}\"]', poll_frequency = 0.5, ignored_exceptions = None\n\n    def __init__(\n        self,\n        driver,\n        timeout: float,\n        poll_frequency: float = POLL_FREQUENCY,\n        ignored_exceptions: typing.Optional[WaitExcTypes] = None,\n    ):\n        \"\"\"Constructor, takes a WebDriver instance and timeout in seconds.\n    \n        :Args:\n         - driver - Instance of WebDriver (Ie, Firefox, Chrome or Remote)\n         - timeout - Number of seconds before timing out\n         - poll_frequency - sleep interval between calls\n           By default, it is 0.5 second.\n         - ignored_exceptions - iterable structure of exception classes ignored during calls.\n           By default, it contains NoSuchElementException only.\n    \n        Example::\n    \n         from selenium.webdriver.support.wait import WebDriverWait \\n\n         element = WebDriverWait(driver, 10).until(lambda x: x.find_element(By.ID, \"someId\")) \\n\n         is_disappeared = WebDriverWait(driver, 30, 1, (ElementNotVisibleException)).\\\\ \\n\n                     until_not(lambda x: x.find_element(By.ID, \"someId\").is_displayed())\n        \"\"\"\n        self._driver = driver\n>       self._timeout = float(timeout)\nE       ValueError: could not convert string to float: 'option[value=\"{x}\"]'\n\n../local/lib/python3.10/site-packages/selenium/webdriver/support/wait.py:55: ValueError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1719209339166,
+      "stop" : 1719209339188,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1719209551850,
+      "stop" : 1719209552615,
+      "duration" : 765
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "ValueError: could not convert string to float: 'option[value=\"{x}\"]'",
+    "statusTrace" : "self = <elements_test.TestElements.TestWebTables object at 0x7f956f9b84c0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"fa477b588c14fc1a78da6131959f7f5c\")>\n\n    @allure.title(\"проверка изменения количества строк на странице\")\n    def test_web_tables_change_count_row(self, driver):\n        web_tables_page = WebTablesPage(driver, 'https://demoqa.com/webtables')\n        web_tables_page.open()\n>       count = web_tables_page.select_up_to_some_rows()\n\ntests/elements_test.py:97: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/elements_page.py:163: in select_up_to_some_rows\n    self.element_is_visible(By.CSS_SELECTOR, 'option[value=\"{x}\"]').click()\npages/base_page.py:17: in element_is_visible\n    return wait(self.driver, timeout).until(EC.visibility_of_element_located(locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"fa477b588c14fc1a78da6131959f7f5c\")>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"fa477b588c14fc1a78da6131959f7f5c\")>\ntimeout = 'option[value=\"{x}\"]', poll_frequency = 0.5, ignored_exceptions = None\n\n    def __init__(\n        self,\n        driver,\n        timeout: float,\n        poll_frequency: float = POLL_FREQUENCY,\n        ignored_exceptions: typing.Optional[WaitExcTypes] = None,\n    ):\n        \"\"\"Constructor, takes a WebDriver instance and timeout in seconds.\n    \n        :Args:\n         - driver - Instance of WebDriver (Ie, Firefox, Chrome or Remote)\n         - timeout - Number of seconds before timing out\n         - poll_frequency - sleep interval between calls\n           By default, it is 0.5 second.\n         - ignored_exceptions - iterable structure of exception classes ignored during calls.\n           By default, it contains NoSuchElementException only.\n    \n        Example::\n    \n         from selenium.webdriver.support.wait import WebDriverWait \\n\n         element = WebDriverWait(driver, 10).until(lambda x: x.find_element(By.ID, \"someId\")) \\n\n         is_disappeared = WebDriverWait(driver, 30, 1, (ElementNotVisibleException)).\\\\ \\n\n                     until_not(lambda x: x.find_element(By.ID, \"someId\").is_displayed())\n        \"\"\"\n        self._driver = driver\n>       self._timeout = float(timeout)\nE       ValueError: could not convert string to float: 'option[value=\"{x}\"]'\n\n../local/lib/python3.10/site-packages/selenium/webdriver/support/wait.py:55: ValueError",
+    "steps" : [ {
+      "name" : "открыть",
+      "time" : {
+        "start" : 1719209552616,
+        "stop" : 1719209564361,
+        "duration" : 11745
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "выбор количества строк на странице",
+      "time" : {
+        "start" : 1719209564361,
+        "stop" : 1719209564492,
+        "duration" : 131
+      },
+      "status" : "broken",
+      "statusMessage" : "ValueError: could not convert string to float: 'option[value=\"{x}\"]'\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/usr/workspace/pages/elements_page.py\", line 163, in select_up_to_some_rows\n    self.element_is_visible(By.CSS_SELECTOR, 'option[value=\"{x}\"]').click()\n  File \"/usr/local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/usr/workspace/pages/base_page.py\", line 17, in element_is_visible\n    return wait(self.driver, timeout).until(EC.visibility_of_element_located(locator))\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/support/wait.py\", line 55, in __init__\n    self._timeout = float(timeout)\n",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1719209564362,
+          "stop" : 1719209564388,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'select[aria-label=\"rows per page\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перйти к элементу",
+        "time" : {
+          "start" : 1719209564388,
+          "stop" : 1719209564397,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"fa477b588c14fc1a78da6131959f7f5c\", element=\"f.79B7D4DD55B231BE156D34BDF6760BE8.d.3CF2B301264F3EA0B3603FDDEB485AB8.e.57\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1719209564492,
+          "stop" : 1719209564492,
+          "duration" : 0
+        },
+        "status" : "broken",
+        "statusMessage" : "ValueError: could not convert string to float: 'option[value=\"{x}\"]'\n",
+        "statusTrace" : "  File \"/usr/local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/usr/workspace/pages/base_page.py\", line 17, in element_is_visible\n    return wait(self.driver, timeout).until(EC.visibility_of_element_located(locator))\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/support/wait.py\", line 55, in __init__\n    self._timeout = float(timeout)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'css selector'"
+        }, {
+          "name" : "timeout",
+          "value" : "'option[value=\"{x}\"]'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1719209564510,
+      "stop" : 1719209564578,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "WebTables"
+  }, {
+    "name" : "suite",
+    "value" : "Elements"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestElements"
+  }, {
+    "name" : "host",
+    "value" : "e8cc21e3be47"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.elements_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "78804a718ae722cb.json",
+  "parameterValues" : [ ]
+}

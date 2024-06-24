@@ -1,0 +1,441 @@
+{
+  "uid" : "a0a7aa9755df4383",
+  "name" : "проверка перемешивания объектов",
+  "fullName" : "tests.iteractions_test.TestSortablePage#test_sortable",
+  "historyId" : "4c8d1aef1c76064c5341ad7e8d00a037",
+  "time" : {
+    "start" : 1719209707573,
+    "stop" : 1719209721365,
+    "duration" : 13792
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1719209706807,
+      "stop" : 1719209707572,
+      "duration" : 765
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1719209339166,
+      "stop" : 1719209339188,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть",
+      "time" : {
+        "start" : 1719209707573,
+        "stop" : 1719209719320,
+        "duration" : 11747
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "изменить список",
+      "time" : {
+        "start" : 1719209719321,
+        "stop" : 1719209720325,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1719209719321,
+          "stop" : 1719209719345,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'a[id=\"demo-tab-list\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "получить обьект для сортировки",
+        "time" : {
+          "start" : 1719209719394,
+          "stop" : 1719209719616,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "элементы видимы",
+          "time" : {
+            "start" : 1719209719394,
+            "stop" : 1719209719565,
+            "duration" : 171
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'div[class=\"vertical-list-container mt-4\"]  div[class=\"list-group-item list-group-item-action\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elements",
+          "value" : "('css selector', 'div[class=\"vertical-list-container mt-4\"]  div[class=\"list-group-item list-group-item-action\"]')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "элементы видимы",
+        "time" : {
+          "start" : 1719209719616,
+          "stop" : 1719209719675,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[class=\"vertical-list-container mt-4\"]  div[class=\"list-group-item list-group-item-action\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перетянуть предмет на элемент",
+        "time" : {
+          "start" : 1719209719675,
+          "stop" : 1719209720214,
+          "duration" : 539
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "what",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"74c2279612f397ff60cb23acbc182513\", element=\"f.29A1584DD0411DC8DC23E187CDE1C8D3.d.B902846E75CB6CCE33134804054D6372.e.49\")>"
+        }, {
+          "name" : "where",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"74c2279612f397ff60cb23acbc182513\", element=\"f.29A1584DD0411DC8DC23E187CDE1C8D3.d.B902846E75CB6CCE33134804054D6372.e.47\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "получить обьект для сортировки",
+        "time" : {
+          "start" : 1719209720214,
+          "stop" : 1719209720325,
+          "duration" : 111
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "элементы видимы",
+          "time" : {
+            "start" : 1719209720214,
+            "stop" : 1719209720281,
+            "duration" : 67
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'div[class=\"vertical-list-container mt-4\"]  div[class=\"list-group-item list-group-item-action\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elements",
+          "value" : "('css selector', 'div[class=\"vertical-list-container mt-4\"]  div[class=\"list-group-item list-group-item-action\"]')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "изменить порядок в таблице",
+      "time" : {
+        "start" : 1719209720326,
+        "stop" : 1719209721365,
+        "duration" : 1039
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элемент видим",
+        "time" : {
+          "start" : 1719209720326,
+          "stop" : 1719209720344,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'a[id=\"demo-tab-grid\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "получить обьект для сортировки",
+        "time" : {
+          "start" : 1719209720389,
+          "stop" : 1719209720567,
+          "duration" : 178
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "элементы видимы",
+          "time" : {
+            "start" : 1719209720390,
+            "stop" : 1719209720489,
+            "duration" : 99
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'div[id=\"demo-tabpane-grid\"]  div[class=\"list-group-item list-group-item-action\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elements",
+          "value" : "('css selector', 'div[id=\"demo-tabpane-grid\"]  div[class=\"list-group-item list-group-item-action\"]')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "элементы видимы",
+        "time" : {
+          "start" : 1719209720567,
+          "stop" : 1719209720651,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'div[id=\"demo-tabpane-grid\"]  div[class=\"list-group-item list-group-item-action\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перетянуть предмет на элемент",
+        "time" : {
+          "start" : 1719209720652,
+          "stop" : 1719209721188,
+          "duration" : 536
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "what",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"74c2279612f397ff60cb23acbc182513\", element=\"f.29A1584DD0411DC8DC23E187CDE1C8D3.d.B902846E75CB6CCE33134804054D6372.e.93\")>"
+        }, {
+          "name" : "where",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"74c2279612f397ff60cb23acbc182513\", element=\"f.29A1584DD0411DC8DC23E187CDE1C8D3.d.B902846E75CB6CCE33134804054D6372.e.92\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "получить обьект для сортировки",
+        "time" : {
+          "start" : 1719209721188,
+          "stop" : 1719209721364,
+          "duration" : 176
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "элементы видимы",
+          "time" : {
+            "start" : 1719209721188,
+            "stop" : 1719209721273,
+            "duration" : 85
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', 'div[id=\"demo-tabpane-grid\"]  div[class=\"list-group-item list-group-item-action\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "5"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elements",
+          "value" : "('css selector', 'div[id=\"demo-tabpane-grid\"]  div[class=\"list-group-item list-group-item-action\"]')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 17,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1719209721365,
+      "stop" : 1719209721433,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestInteractions"
+  }, {
+    "name" : "feature",
+    "value" : "Sortable Page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInteractions"
+  }, {
+    "name" : "host",
+    "value" : "e8cc21e3be47"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.iteractions_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0a7aa9755df4383.json",
+  "parameterValues" : [ ]
+}

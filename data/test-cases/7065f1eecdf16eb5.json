@@ -1,0 +1,309 @@
+{
+  "uid" : "7065f1eecdf16eb5",
+  "name" : "проверка пунктов меню",
+  "fullName" : "tests.widgets_test.TestMenuPage#test_check_menu",
+  "historyId" : "e2f4d6406e01b33717965185fa9e7649",
+  "time" : {
+    "start" : 1719209944921,
+    "stop" : 1719209959971,
+    "duration" : 15050
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1719209944161,
+      "stop" : 1719209944920,
+      "duration" : 759
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1719209339166,
+      "stop" : 1719209339188,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть",
+      "time" : {
+        "start" : 1719209944921,
+        "stop" : 1719209957797,
+        "duration" : 12876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "проверка заголовков меню",
+      "time" : {
+        "start" : 1719209957797,
+        "stop" : 1719209959971,
+        "duration" : 2174
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "элементы представлены",
+        "time" : {
+          "start" : 1719209957798,
+          "stop" : 1719209957809,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', 'ul[id=\"nav\"] li a')"
+        }, {
+          "name" : "timeout",
+          "value" : "5"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перейти к элементу",
+        "time" : {
+          "start" : 1719209957809,
+          "stop" : 1719209958071,
+          "duration" : 262
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"344caecfb8fc3d6523a60054597d27e4\", element=\"f.5AD424625DFC093BE43FBBF716A56F41.d.B9FECDD8DE19C0532A2F211B33871630.e.48\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перейти к элементу",
+        "time" : {
+          "start" : 1719209958085,
+          "stop" : 1719209958346,
+          "duration" : 261
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"344caecfb8fc3d6523a60054597d27e4\", element=\"f.5AD424625DFC093BE43FBBF716A56F41.d.B9FECDD8DE19C0532A2F211B33871630.e.49\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перейти к элементу",
+        "time" : {
+          "start" : 1719209958355,
+          "stop" : 1719209958616,
+          "duration" : 261
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"344caecfb8fc3d6523a60054597d27e4\", element=\"f.5AD424625DFC093BE43FBBF716A56F41.d.B9FECDD8DE19C0532A2F211B33871630.e.50\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перейти к элементу",
+        "time" : {
+          "start" : 1719209958624,
+          "stop" : 1719209958884,
+          "duration" : 260
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"344caecfb8fc3d6523a60054597d27e4\", element=\"f.5AD424625DFC093BE43FBBF716A56F41.d.B9FECDD8DE19C0532A2F211B33871630.e.51\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перейти к элементу",
+        "time" : {
+          "start" : 1719209958893,
+          "stop" : 1719209959154,
+          "duration" : 261
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"344caecfb8fc3d6523a60054597d27e4\", element=\"f.5AD424625DFC093BE43FBBF716A56F41.d.B9FECDD8DE19C0532A2F211B33871630.e.52\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перейти к элементу",
+        "time" : {
+          "start" : 1719209959163,
+          "stop" : 1719209959423,
+          "duration" : 260
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"344caecfb8fc3d6523a60054597d27e4\", element=\"f.5AD424625DFC093BE43FBBF716A56F41.d.B9FECDD8DE19C0532A2F211B33871630.e.53\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перейти к элементу",
+        "time" : {
+          "start" : 1719209959432,
+          "stop" : 1719209959692,
+          "duration" : 260
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"344caecfb8fc3d6523a60054597d27e4\", element=\"f.5AD424625DFC093BE43FBBF716A56F41.d.B9FECDD8DE19C0532A2F211B33871630.e.54\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "перейти к элементу",
+        "time" : {
+          "start" : 1719209959701,
+          "stop" : 1719209959963,
+          "duration" : 262
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"344caecfb8fc3d6523a60054597d27e4\", element=\"f.5AD424625DFC093BE43FBBF716A56F41.d.B9FECDD8DE19C0532A2F211B33871630.e.47\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 9,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1719209959972,
+      "stop" : 1719209960038,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Menu"
+  }, {
+    "name" : "suite",
+    "value" : "Widgets"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWidgets"
+  }, {
+    "name" : "host",
+    "value" : "e8cc21e3be47"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.widgets_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7065f1eecdf16eb5.json",
+  "parameterValues" : [ ]
+}
